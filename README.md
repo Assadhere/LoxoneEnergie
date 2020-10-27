@@ -77,6 +77,9 @@ hulpvaardige links voor installatie volgende week:
 - [Tutorial: Automatische zonwering en ruimteklimaat](https://www.youtube.com/watch?v=Czq5HhtPKxs)
 - [motor config](https://www.youtube.com/watch?v=lM85bBsKFDs)
 
+https://www.loxone.com/enen/kb/auto-configuration/
+
+
 ### Week 4 
 
 
