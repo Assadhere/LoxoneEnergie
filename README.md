@@ -92,8 +92,11 @@ Touch - > Motion
 
 Ir , tubular motor , watersensor, smoke detector, window/door , air remote?
 
+### Week6
 
- 
+Mogelijkheden bekijken om data te sturen en ontvangen naar een esp om zo fictieve delen van onze setuo te emuleren (verwarmingsketel, lampen) 
+
+https://blog.denninger.at/2018/iot-sending-temp-hum-esp8266-loxone-smart-home/
 
 ## Materiaallijst 
 
