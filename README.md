@@ -18,6 +18,26 @@ Mijn voorstel is:
 - Verschil uitrekenen met het energieverbuik onder 'normale' omstandigheden zonder slimme sturing
 - Double tap gebruiken met Loxone Touch om bij het verlaten van het huis alle lichten te doven en verwarming uit te zetten 
 
+
+## Ideetjes met ESP
+
+Sinds de kans erg klein is dat we materiaal van de school zullen ontvangen en de labotoegang er beperkt is lijkt het aangeraden om zelfvoorzienend te zijn.
+
+We kunnen met enkele ESP32'jes vele elementen simuleren die aanwezig zouden zijn in onze smart home setup.
+
+We kunnen met POST en GET requests over het lokale netwerk communiceren met de miniserver. Eventueel zouden we ook iets kunnen aansturen met een eigen MQTT server.
+Op deze manier kan een ESP32 dienst doen als :
+- een verwarming ( relay verbonden aan een waterkoker of een ander toestel waarmee we warmte kunnen genereren.
+- een thermometer ( deze kan dan uitmeten hoe warm of koud de kamer is )
+- een additionele lamp
+- een luxmeter (om te bepalen of de automatische verlichting met PIR wel aan moet gaan )
+- een ventilator = koelingsysteem
+
+
+Met al deze elementen in ons achterhoofd kunnen we makkelijk het volgende scenario voorstellen:
+
+Het is een warme ochtend 
+
 ## Wekelijkse verslagen 
 
 Labo Verslagen
