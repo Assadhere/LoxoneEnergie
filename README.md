@@ -13,7 +13,7 @@ Mijn voorstel is:
 - Mogelijk kunnen we licht meten met een PIR of andere sensor.
 - Slimme klimatiseringssturing - Dit kunnen we niet IRL uitwerken maar al wel programmeren
 - Slimme deur/raamsensoren - Een ruimte die open is moet bijvoorbeeld geen verwarming hebben aanstaan
-- alerts voor openende deuren en ramen 
+- alerts voor openende deuren en ramen als er niemand thuis is
 - Touch-zones gebruiken, verschillende sfeerzones zodat het grote licht niet moet branden.
 - Verschil uitrekenen met het energieverbuik onder 'normale' omstandigheden zonder slimme sturing
 - Double tap gebruiken met Loxone Touch om bij het verlaten van het huis alle lichten te doven en verwarming uit te zetten 
@@ -36,7 +36,11 @@ Op deze manier kan een ESP32 dienst doen als :
 
 Met al deze elementen in ons achterhoofd kunnen we makkelijk het volgende scenario voorstellen:
 
-Het is een warme ochtend 
+Het is een warme ochtend. TE warm zelf! We willen echter ook zo min mogelijk energie verbruiken. 
+
+Daarom zal de data van de thermometer bepalen wanneer de zonwering dicht gaat. Indien de gewenste temperatuur bereikt wordt hoeft er geen verdere actie ondernomen worden. Indien het nog steeds te warm is zal een ventilator of een ander gesimuleerd koelingsysteem in werking treden .
+
+In de winter kan dit omgekeerd werken . Vaak werkt isolatie ( in samenwerking met deur en raar sensoren om na te gaan of er niets open staat) en zonwering vrij goed en hoeven we weinig energie te verbruiken .
 
 ## Wekelijkse verslagen 
 
