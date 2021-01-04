@@ -1,0 +1,1545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ControlList Version="173" LxAV="29" NextObj="26" NextConst="1" NextNote="1" NextMem="1">
+	<C Type="Document" V="138" U="1616fcf7-000b-9586-ffff721641b000e9" Title="Energiebesparing" ConfigVersion="10050218" PaperFormat="2" SPSfreq="100" OpenIsHigh="false" Date="2020-10-13 13:32:47" CDate="" BDate="" DateS="371820767" Street="Ellermanstraat 69" Town="Antwerpen" PostCode="2000" Ctry="BE" Latitude="51.2298" Longitude="4.4174" SL="4" Creator="IOT GROEP 5" Tel="+32493155311" EMail="s087292@ap.be" Logo="" uuidNotifications="1616fcf7-000a-9582-ffff721641b000e9" uuidFavSeq="1616fcf7-000a-9584-ffff721641b000e9" uuidFavCol="1616fcf7-000a-9585-ffff721641b000e9" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="1616fcf7-000a-9583-ffff721641b000e9" UnitPrecipitation="1" Currency="€" UpdTime="120" AUE="true" CrashL="true" NumPresets="1" Geo="3" NumO="461">
+		<Preset Name="T5" Type="402" Par="On;Delta" Val="5,000000;2,000000"/>
+		<C Type="LoxCaption" V="138" U="1616fcf7-000d-9588-ffff721641b000e9" Title="Symbolen" Cl="0,0,0" WF="16384" CaptionType="5" SubType="5">
+			<C Type="IconCaptionState" V="138" U="1616fcf7-000e-958a-ffff721641b000e9" Title="Statussymbolen" WF="16384">
+				<C Type="IconState" V="138" U="00000000-0000-0001-2200000000000000" Title="Niet toegewezen" WF="16384"/>
+				<C Type="IconState" V="138" U="00000000-0000-0002-2200000000000000" Title="Zware fout" WF="16384" Ix="1"/>
+				<C Type="IconState" V="138" U="00000000-0000-0003-2200000000000000" Title="Kleine fout" WF="16384" Ix="2"/>
+				<C Type="IconState" V="138" U="00000000-0000-0004-2200000000000000" Title="Waarschuwing" WF="16384" Ix="3"/>
+				<C Type="IconState" V="138" U="00000000-0000-0005-2200000000000000" Title="Info" WF="16384" Ix="4"/>
+				<C Type="IconState" V="138" U="00000000-0000-0006-2200000000000000" Title="Neutraal" WF="16384" Ix="5"/>
+				<C Type="IconState" V="138" U="00000000-0000-0007-2200000000000000" Title="Actief" WF="16384" Ix="6"/>
+				<C Type="IconState" V="138" U="00000000-0000-0008-2200000000000000" Title="Inactief" WF="16384" Ix="7"/>
+				<C Type="IconState" V="138" U="00000000-0000-0009-2200000000000000" Title="Alarm" WF="16384" Ix="8"/>
+				<C Type="IconState" V="138" U="00000000-0000-000a-2200000000000000" Title="Geactiveerd" WF="16384" Ix="9"/>
+				<C Type="IconState" V="138" U="00000000-0000-000b-2200000000000000" Title="Gedeactiveerd" WF="16384" Ix="10"/>
+				<C Type="IconState" V="138" U="00000000-0000-000c-2200000000000000" Title="Boven" WF="16384" Ix="11"/>
+				<C Type="IconState" V="138" U="00000000-0000-000d-2200000000000000" Title="Midden" WF="16384" Ix="12"/>
+				<C Type="IconState" V="138" U="00000000-0000-000e-2200000000000000" Title="Onder" WF="16384" Ix="13"/>
+				<C Type="IconState" V="138" U="00000000-0000-000f-2200000000000000" Title="Op" WF="16384" Ix="14"/>
+				<C Type="IconState" V="138" U="00000000-0000-0010-2200000000000000" Title="Dicht" WF="16384" Ix="15"/>
+				<C Type="IconState" V="138" U="00000000-0000-0011-2200000000000000" Title="Aan" WF="16384" Ix="16"/>
+				<C Type="IconState" V="138" U="00000000-0000-0012-2200000000000000" Title="Uit" WF="16384" Ix="17"/>
+				<C Type="IconState" V="138" U="00000000-0000-0013-2200000000000000" Title="Vol" WF="16384" Ix="18"/>
+				<C Type="IconState" V="138" U="00000000-0000-0014-2200000000000000" Title="Leeg" WF="16384" Ix="19"/>
+				<C Type="IconState" V="138" U="00000000-0000-0015-2200000000000000" Title="Klaar" WF="16384" Ix="20"/>
+				<C Type="IconState" V="138" U="00000000-0000-0016-2200000000000000" Title="In werking" WF="16384" Ix="21"/>
+				<C Type="IconState" V="138" U="00000000-0000-0017-2200000000000000" Title="Warm" WF="16384" Ix="22"/>
+				<C Type="IconState" V="138" U="00000000-0000-0018-2200000000000000" Title="Koud" WF="16384" Ix="23"/>
+				<C Type="IconState" V="138" U="00000000-0000-0019-2200000000000000" Title="Web-pagina" WF="16384" Ix="24"/>
+			</C>
+			<C Type="IconCaptionCat" V="138" U="1616fcf7-000e-958c-ffff721641b000e9" Title="Categorie symbolen" WF="16384">
+				<C Type="IconCat" V="138" U="00000000-0000-0001-2000000000000000" Title="Niet toegewezen" WF="16384"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0002-2000000000000000" Title="Verlichting" WF="16384" Ix="1"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0003-2000000000000000" Title="Zonwering" WF="16384" Ix="2"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0004-2000000000000000" Title="Verwarming" WF="16384" Ix="3"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0005-2000000000000000" Title="Klimaat" WF="16384" Ix="4"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0006-2000000000000000" Title="Audio" WF="16384" Ix="5"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0007-2000000000000000" Title="Sensor" WF="16384" Ix="6"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0008-2000000000000000" Title="Stelaandrijving" WF="16384" Ix="7"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0009-2000000000000000" Title="Temperatuur" WF="16384" Ix="8"/>
+				<C Type="IconCat" V="138" U="00000000-0000-000a-2000000000000000" Title="Aanwezigheidserkenning" WF="16384" Ix="9"/>
+				<C Type="IconCat" V="138" U="00000000-0000-000b-2000000000000000" Title="Ventilatie" WF="16384" Ix="10"/>
+				<C Type="IconCat" V="138" U="00000000-0000-000c-2000000000000000" Title="Venster" WF="16384" Ix="11"/>
+				<C Type="IconCat" V="138" U="00000000-0000-000d-2000000000000000" Title="Veiligheid" WF="16384" Ix="12"/>
+				<C Type="IconCat" V="138" U="00000000-0000-000e-2000000000000000" Title="Koeling" WF="16384" Ix="13"/>
+				<C Type="IconCat" V="138" U="00000000-0000-000f-2000000000000000" Title="Alarm" WF="16384" Ix="14"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0010-2000000000000000" Title="Poort" WF="16384" Ix="15"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0011-2000000000000000" Title="Wellness" WF="16384" Ix="16"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0012-2000000000000000" Title="Techniek" WF="16384" Ix="17"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0013-2000000000000000" Title="Audio 2" WF="16384" Ix="18"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0014-2000000000000000" Title="Verlichting 2" WF="16384" Ix="19"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0015-2000000000000000" Title="Temperatuur 2" WF="16384" Ix="20"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0016-2000000000000000" Title="Detector 2" WF="16384" Ix="21"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0017-2000000000000000" Title="Alarm 2" WF="16384" Ix="22"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0018-2000000000000000" Title="Audio 3" WF="16384" Ix="23"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0019-2000000000000000" Title="Venster 2" WF="16384" Ix="24"/>
+				<C Type="IconCat" V="138" U="00000000-0000-001a-2000000000000000" Title="Verwarming 2" WF="16384" Ix="25"/>
+				<C Type="IconCat" V="138" U="00000000-0000-001b-2000000000000000" Title="Verwarming ventiel 2" WF="16384" Ix="26"/>
+				<C Type="IconCat" V="138" U="00000000-0000-001c-2000000000000000" Title="Techniek 2" WF="16384" Ix="27"/>
+				<C Type="IconCat" V="138" U="00000000-0000-001d-2000000000000000" Title="Poort 2" WF="16384" Ix="28"/>
+				<C Type="IconCat" V="138" U="00000000-0000-001e-2000000000000000" Title="Computer" WF="16384" Ix="29"/>
+				<C Type="IconCat" V="138" U="00000000-0000-001f-2000000000000000" Title="Computer 2" WF="16384" Ix="30"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0020-2000000000000000" Title="Toegang" WF="16384" Ix="31"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0021-2000000000000000" Title="Toegang 2" WF="16384" Ix="32"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0022-2000000000000000" Title="Verbruiker" WF="16384" Ix="33"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0023-2000000000000000" Title="Verbruiker 2" WF="16384" Ix="34"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0024-2000000000000000" Title="Irrigatie" WF="16384" Ix="35"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0025-2000000000000000" Title="Irrigatie 2" WF="16384" Ix="36"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0026-2000000000000000" Title="Fotovoltaïek" WF="16384" Ix="37"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0027-2000000000000000" Title="Bewaking 2" WF="16384" Ix="38"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0028-2000000000000000" Title="Toegang 3" WF="16384" Ix="39"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0029-2000000000000000" Title="Tijd" WF="16384" Ix="40"/>
+				<C Type="IconCat" V="138" U="00000000-0000-002a-2000000000000000" Title="Elektrisch voertuig" WF="16384" Ix="41"/>
+				<C Type="IconCat" V="138" U="00000000-0000-002b-2000000000000000" Title="Zon" WF="16384" Ix="42"/>
+				<C Type="IconCat" V="138" U="00000000-0000-002c-2000000000000000" Title="Wekker" WF="16384" Ix="43"/>
+				<C Type="IconCat" V="138" U="00000000-0000-002d-2000000000000000" Title="Stroom" WF="16384" Ix="44"/>
+				<C Type="IconCat" V="138" U="00000000-0000-002e-2000000000000000" Title="Info" WF="16384" Ix="45"/>
+				<C Type="IconCat" V="138" U="00000000-0000-002f-2000000000000000" Title="Circulatiepomp" WF="16384" Ix="46"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0030-2000000000000000" Title="Warmtepomp" WF="16384" Ix="47"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0031-2000000000000000" Title="Weer" WF="16384" Ix="48"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0032-2000000000000000" Title="Vocht" WF="16384" Ix="49"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0033-2000000000000000" Title="Multimedia" WF="16384" Ix="50"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0034-2000000000000000" Title="Energie" WF="16384" Ix="51"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0035-2000000000000000" Title="Instellingen" WF="16384" Ix="52"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0036-2000000000000000" Title="Nacht" WF="16384" Ix="53"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0037-2000000000000000" Title="Party" WF="16384" Ix="54"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0038-2000000000000000" Title="Diepe slaap" WF="16384" Ix="55"/>
+				<C Type="IconCat" V="138" U="00000000-0000-0039-2000000000000000" Title="Afwezig" WF="16384" Ix="56"/>
+				<C Type="IconCat" V="138" U="00000000-0000-003a-2000000000000000" Title="Bedieningselementen" WF="16384" Ix="57"/>
+				<C Type="IconCat" V="138" U="00000000-0000-003b-2000000000000000" Title="Stormbescherming" WF="16384" Ix="58"/>
+				<C Type="IconCat" V="138" U="00000000-0000-003c-2000000000000000" Title="Vorstbescherming" WF="16384" Ix="59"/>
+			</C>
+			<C Type="IconCaptionPlace" V="138" U="1616fcf7-000f-958e-ffff721641b000e9" Title="Ruimte symbolen" WF="16384">
+				<C Type="IconPlace" V="138" U="00000000-0000-0001-2100000000000000" Title="Niet toegewezen" WF="16384"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0002-2100000000000000" Title="Zitplaats gelijk" WF="16384" Ix="1"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0003-2100000000000000" Title="Zitplaats verdiep" WF="16384" Ix="2"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0004-2100000000000000" Title="Woonkamer" WF="16384" Ix="3"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0005-2100000000000000" Title="Keuken" WF="16384" Ix="4"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0006-2100000000000000" Title="Badkamer" WF="16384" Ix="5"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0007-2100000000000000" Title="Badkamer verdiep" WF="16384" Ix="6"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0008-2100000000000000" Title="Slaapkamer" WF="16384" Ix="7"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0009-2100000000000000" Title="Kinderkamer" WF="16384" Ix="8"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-000a-2100000000000000" Title="WC" WF="16384" Ix="9"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-000b-2100000000000000" Title="Dressing" WF="16384" Ix="10"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-000c-2100000000000000" Title="Garage" WF="16384" Ix="11"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-000d-2100000000000000" Title="Veranda" WF="16384" Ix="12"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-000e-2100000000000000" Title="Trap" WF="16384" Ix="13"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-000f-2100000000000000" Title="Sauna" WF="16384" Ix="14"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0010-2100000000000000" Title="Wintertuin" WF="16384" Ix="15"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0011-2100000000000000" Title="Bureau" WF="16384" Ix="16"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0012-2100000000000000" Title="Speelkamer" WF="16384" Ix="17"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0013-2100000000000000" Title="Wasplaats" WF="16384" Ix="18"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0014-2100000000000000" Title="Strijkkamer" WF="16384" Ix="19"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0015-2100000000000000" Title="Fitnes" WF="16384" Ix="20"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0016-2100000000000000" Title="Terras" WF="16384" Ix="21"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0017-2100000000000000" Title="Tuin" WF="16384" Ix="22"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0018-2100000000000000" Title="Eetkamer" WF="16384" Ix="23"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0019-2100000000000000" Title="Zolder" WF="16384" Ix="24"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-001a-2100000000000000" Title="Voorraadkelder" WF="16384" Ix="25"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-001b-2100000000000000" Title="Bar" WF="16384" Ix="26"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-001c-2100000000000000" Title="Badkamer gelijk 2" WF="16384" Ix="27"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-001d-2100000000000000" Title="Dressing 2" WF="16384" Ix="28"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-001e-2100000000000000" Title="Badkamer gelijk 3" WF="16384" Ix="29"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-001f-2100000000000000" Title="Badkamer gelijk 4" WF="16384" Ix="30"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0020-2100000000000000" Title="Keuken 2" WF="16384" Ix="31"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0021-2100000000000000" Title="Keuken 3" WF="16384" Ix="32"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0022-2100000000000000" Title="Veranda 2" WF="16384" Ix="33"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0023-2100000000000000" Title="Sanitair" WF="16384" Ix="34"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0024-2100000000000000" Title="Bureau 2" WF="16384" Ix="35"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0025-2100000000000000" Title="Eetkamer 2" WF="16384" Ix="36"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0026-2100000000000000" Title="Conferentie" WF="16384" Ix="37"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0027-2100000000000000" Title="Garage 2" WF="16384" Ix="38"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0028-2100000000000000" Title="Wintertuin 2" WF="16384" Ix="39"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0029-2100000000000000" Title="Trap 2" WF="16384" Ix="40"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-002a-2100000000000000" Title="Terras 2" WF="16384" Ix="41"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-002b-2100000000000000" Title="Pool" WF="16384" Ix="42"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-002c-2100000000000000" Title="Gang" WF="16384" Ix="43"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-002d-2100000000000000" Title="Buiten" WF="16384" Ix="44"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-002e-2100000000000000" Title="Technische ruimte" WF="16384" Ix="45"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-002f-2100000000000000" Title="Bureau 3" WF="16384" Ix="46"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0030-2100000000000000" Title="Werk kamer 2" WF="16384" Ix="47"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0031-2100000000000000" Title="Centraal" WF="16384" Ix="48"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0032-2100000000000000" Title="Serverruimte" WF="16384" Ix="49"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0033-2100000000000000" Title="Ketel ruimte" WF="16384" Ix="50"/>
+				<C Type="IconPlace" V="138" U="00000000-0000-0034-2100000000000000" Title="WC 2" WF="16384" Ix="51"/>
+			</C>
+		</C>
+		<C Type="CategoryCaption" V="138" U="1616fcf7-0010-9590-ffff721641b000e9" Title="Categorieën" WF="16384">
+			<C Type="Category" V="138" U="1616fcf7-002c-9613-ffff721641b000e9" Title="Niet toegewezen" WF="6307840" Icon="00000000-0000-0001-2000000000000000" First="true" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-002c-9617-ffff721641b000e9" Title="Verlichting" WF="16384" Icon="00000000-0000-0002-2000000000000000" Rating="1" UseFav="true" CatGroup="2" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-002d-961b-ffff721641b000e9" Title="Zonwering" WF="16384" Icon="00000000-0000-0003-2000000000000000" Rating="1" UseFav="true" CatGroup="1" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-002d-961f-ffff721641b000e9" Title="Verwarming" WF="16384" Icon="00000000-0000-0004-2000000000000000" CatGroup="8" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-002e-9623-ffff721641b000e9" Title="Klimaat" WF="16384" Icon="00000000-0000-0005-2000000000000000" CatGroup="5" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-002e-9627-ffff721641b000e9" Title="Audio" WF="16384" Icon="00000000-0000-0006-2000000000000000" Rating="1" UseFav="true" CatGroup="4" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-002f-962b-ffff721641b000e9" Title="Sensor" WF="16384" Icon="00000000-0000-0007-2000000000000000" CatGroup="6" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-002f-962f-ffff721641b000e9" Title="Stelaandrijving" WF="16384" Icon="00000000-0000-0008-2000000000000000" CatGroup="7" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0030-9633-ffff721641b000e9" Title="Temperatuur" WF="16384" Icon="00000000-0000-0009-2000000000000000" CatGroup="3" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0030-9637-ffff721641b000e9" Title="Aanwezigheidserkenning" WF="16384" Icon="00000000-0000-000a-2000000000000000" CatGroup="9" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0030-963b-ffff721641b000e9" Title="Ventilatie" WF="16384" Icon="00000000-0000-000b-2000000000000000" CatGroup="10" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0031-963f-ffff721641b000e9" Title="Venster" WF="16384" Icon="00000000-0000-000c-2000000000000000" CatGroup="58" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0031-9643-ffff721641b000e9" Title="Veiligheid" WF="16384" Icon="00000000-0000-000d-2000000000000000" CatGroup="12" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0032-9647-ffff721641b000e9" Title="Koeling" WF="16384" Icon="00000000-0000-000e-2000000000000000" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0032-964b-ffff721641b000e9" Title="Alarm" WF="16384" Icon="00000000-0000-000f-2000000000000000" Rating="1" UseFav="true" CatGroup="14" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0033-964f-ffff721641b000e9" Title="Poort" WF="16384" Icon="00000000-0000-0010-2000000000000000" Rating="1" UseFav="true" CatGroup="15" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0034-9653-ffff721641b000e9" Title="Wellness" WF="16384" Icon="00000000-0000-0011-2000000000000000" CatGroup="16" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0034-9657-ffff721641b000e9" Title="Techniek" WF="16384" Icon="00000000-0000-0012-2000000000000000" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0039-9671-ffff721641b000e9" Title="Computer" WF="16384" Icon="00000000-0000-001e-2000000000000000" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-003a-9677-ffff721641b000e9" Title="Toegang" WF="16384" Icon="00000000-0000-0020-2000000000000000" Rating="1" UseFav="true" CatGroup="31" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-003a-967d-ffff721641b000e9" Title="Verbruiker" WF="16384" Icon="00000000-0000-0022-2000000000000000" CatGroup="33" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-003b-9683-ffff721641b000e9" Title="Irrigatie" WF="16384" Icon="00000000-0000-0024-2000000000000000" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-003c-9689-ffff721641b000e9" Title="Fotovoltaïek" WF="16384" Icon="00000000-0000-0026-2000000000000000" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-003e-9693-ffff721641b000e9" Title="Elektrisch voertuig" WF="16384" Icon="00000000-0000-002a-2000000000000000" CatGroup="41" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0040-9699-ffff721641b000e9" Title="Wekker" WF="16384" Icon="00000000-0000-002c-2000000000000000" CatGroup="43" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0040-969d-ffff721641b000e9" Title="Stroom" WF="16384" Icon="00000000-0000-002d-2000000000000000" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0041-96a1-ffff721641b000e9" Title="Info" WF="16384" Icon="00000000-0000-002e-2000000000000000" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0042-96a9-ffff721641b000e9" Title="Weer" WF="16384" Icon="00000000-0000-0031-2000000000000000" CatGroup="48" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0042-96ad-ffff721641b000e9" Title="Vocht" WF="16384" Icon="00000000-0000-0032-2000000000000000" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0043-96b1-ffff721641b000e9" Title="Multimedia" WF="16384" Icon="00000000-0000-0033-2000000000000000" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0043-96b5-ffff721641b000e9" Title="Energie" WF="16384" Icon="00000000-0000-0034-2000000000000000" CatGroup="51" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0044-96b9-ffff721641b000e9" Title="Instellingen" WF="16384" Icon="00000000-0000-0035-2000000000000000" CatGroup="52" PType="2"/>
+			<C Type="Category" V="138" U="1616fcf7-0046-96c5-ffff721641b000e9" Title="Bedieningselementen" WF="16384" Icon="00000000-0000-003a-2000000000000000" CatGroup="57" PType="2"/>
+		</C>
+		<C Type="PlaceCaption" V="138" U="1616fcf7-0010-9592-ffff721641b000e9" Title="Ruimtes" WF="16384">
+			<C Type="Place" V="138" U="1616fcf7-006f-9760-ffff721641b000e9" Title="Niet toegewezen" WF="6307840" Icon="00000000-0000-0001-2100000000000000" First="true" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-006f-9764-ffff721641b000e9" Title="Zitplaats gelijk" WF="16384" Icon="00000000-0000-0002-2100000000000000" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-0070-9768-ffff721641b000e9" Title="Zitplaats verdiep" WF="16384" Icon="00000000-0000-0003-2100000000000000" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-0070-976c-ffff721641b000e9" Title="Woonkamer" WF="16384" Icon="00000000-0000-0004-2100000000000000" Rating="1" PGroup="3" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-0071-9770-ffff721641b000e9" Title="Keuken" WF="16384" Icon="00000000-0000-0005-2100000000000000" Rating="1" PGroup="4" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-0072-9774-ffff721641b000e9" Title="Badkamer" WF="16384" Icon="00000000-0000-0006-2100000000000000" Rating="1" PGroup="5" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-0072-9778-ffff721641b000e9" Title="Badkamer verdiep" WF="16384" Icon="00000000-0000-0007-2100000000000000" Rating="1" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-0073-977c-ffff721641b000e9" Title="Slaapkamer" WF="16384" Icon="00000000-0000-0008-2100000000000000" PGroup="7" PType="1"/>
+			<C Type="Place" V="138" U="1616fcf7-0073-9780-ffff721641b000e9" Title="Kinderkamer" WF="16384" Icon="00000000-0000-0009-2100000000000000" PType="1"/>
+			<C Type="Place" V="138" U="1616fcf7-0074-9784-ffff721641b000e9" Title="WC" WF="16384" Icon="00000000-0000-000a-2100000000000000" PGroup="9" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-0074-9788-ffff721641b000e9" Title="Dressing" WF="16384" Icon="00000000-0000-000b-2100000000000000" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-0075-978c-ffff721641b000e9" Title="Garage" WF="16384" Icon="00000000-0000-000c-2100000000000000" PGroup="11" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-0076-9790-ffff721641b000e9" Title="Veranda" WF="16384" Icon="00000000-0000-000d-2100000000000000" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-0076-9794-ffff721641b000e9" Title="Trap" WF="16384" Icon="00000000-0000-000e-2100000000000000" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-0077-9798-ffff721641b000e9" Title="Sauna" WF="16384" Icon="00000000-0000-000f-2100000000000000" Rating="1" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-0077-979c-ffff721641b000e9" Title="Wintertuin" WF="16384" Icon="00000000-0000-0010-2100000000000000" Rating="1" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-0078-97a0-ffff721641b000e9" Title="Bureau" WF="16384" Icon="00000000-0000-0011-2100000000000000" Rating="1" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-0078-97a4-ffff721641b000e9" Title="Speelkamer" WF="16384" Icon="00000000-0000-0012-2100000000000000" Rating="1" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-0079-97a8-ffff721641b000e9" Title="Wasplaats" WF="16384" Icon="00000000-0000-0013-2100000000000000" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-0079-97ac-ffff721641b000e9" Title="Strijkkamer" WF="16384" Icon="00000000-0000-0014-2100000000000000" Rating="1" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-007a-97b2-ffff721641b000e9" Title="Terras" WF="16384" Icon="00000000-0000-0016-2100000000000000" PType="5"/>
+			<C Type="Place" V="138" U="1616fcf7-007b-97b6-ffff721641b000e9" Title="Tuin" WF="16384" Icon="00000000-0000-0017-2100000000000000" PType="5"/>
+			<C Type="Place" V="138" U="1616fcf7-007b-97ba-ffff721641b000e9" Title="Eetkamer" WF="16384" Icon="00000000-0000-0018-2100000000000000" Rating="1" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-007c-97be-ffff721641b000e9" Title="Zolder" WF="16384" Icon="00000000-0000-0019-2100000000000000" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-007c-97c2-ffff721641b000e9" Title="Voorraadkelder" WF="16384" Icon="00000000-0000-001a-2100000000000000" PType="5"/>
+			<C Type="Place" V="138" U="1616fcf7-007f-97d6-ffff721641b000e9" Title="Sanitair" WF="16384" Icon="00000000-0000-0023-2100000000000000" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-0082-97e8-ffff721641b000e9" Title="Pool" WF="16384" Icon="00000000-0000-002b-2100000000000000" Rating="1" PGroup="42" PType="2"/>
+			<C Type="Place" V="138" U="1616fcf7-0083-97ec-ffff721641b000e9" Title="Gang" WF="16384" Icon="00000000-0000-002c-2100000000000000" PGroup="43" PType="3"/>
+			<C Type="Place" V="138" U="1616fcf7-0083-97f0-ffff721641b000e9" Title="Buiten" WF="16384" Icon="00000000-0000-002d-2100000000000000" PGroup="44" PType="5"/>
+			<C Type="Place" V="138" U="1616fcf7-0084-97f4-ffff721641b000e9" Title="Technische ruimte" WF="16384" Icon="00000000-0000-002e-2100000000000000" PType="4"/>
+			<C Type="Place" V="138" U="1616fcf7-0085-97fc-ffff721641b000e9" Title="Centraal" WF="16384" Icon="00000000-0000-0031-2100000000000000" PGroup="48" PType="4"/>
+			<C Type="Place" V="138" U="1616fcf7-0085-9800-ffff721641b000e9" Title="Serverruimte" WF="16384" Icon="00000000-0000-0032-2100000000000000" PType="4"/>
+			<C Type="Place" V="138" U="1616fcf7-0086-9804-ffff721641b000e9" Title="Ketel ruimte" WF="16384" Icon="00000000-0000-0033-2100000000000000" PType="4"/>
+		</C>
+		<C Type="UserCaption" V="138" U="1616fcf7-0011-9594-ffff721641b000e9" Title="Gebruiker" WF="16384">
+			<C Type="User" V="138" U="1616fcf7-006d-974d-ffff721641b000e9" Title="admin" WF="16400" LastEdit="0" Main="true" IDS="" AppGroup="1" UsR="8191" UsRnA="1664" iBtnArr="" CodeArr="" NFCArr="" NFCNArr="" UnsP="true">
+				<HP H="E2A1C996330CA118095871B432F56D932BF5B1F299C23D9BD70DE4A8A3B8D2BFB5D2E3FC7EB733A76B8B6D620E5DE5C8" Sc="0" S="31363239376338642D303136382D356534612D66666666333533383934383531366535"/>
+				<HP H="" Sc="-1" S="31363137303066312D303064312D396137662D66666666393634333365333862383539"/>
+			</C>
+			<C Type="User" V="138" U="1616fd30-03b7-982d-ffff721641b000e9" Title="Groep5" WF="16400" LastEdit="0" IDS="" AppGroup="2" UsR="1062" UsRnA="1024" iBtnArr="" CodeArr="" NFCArr="" NFCNArr="">
+				<HP H="57F72B2E59F36F7DE900A9FF444C83E55E8648290570BAB8B58B195B22F1D9D516A39C4C1FBB9D7F59D47305F387AEC9" Sc="1" S="31363136666434302D303136342D393833312D66666666623961653732366232316361"/>
+				<HP H="" Sc="-1" S="31363137303066312D303064312D396138312D66666666393634333365333862383539"/>
+			</C>
+		</C>
+		<C Type="UserGroupCaption" V="138" U="1616fcf7-0011-9596-ffff721641b000e9" Title="Gebruikersgroep" WF="16384">
+			<C Type="UserGroup" V="138" U="1616fcf7-006d-9750-ffff721641b000e9" Title="Administrators" WF="16384" Rights="-1" UgType="1" UserModes="3" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+				<Entry To="1440" V="1"/>
+				<Entry To="1440" Ix="1" V="1"/>
+				<Entry To="1440" Ix="2" V="1"/>
+				<Entry To="1440" Ix="3" V="1"/>
+				<Entry To="1440" Ix="4" V="1"/>
+				<Entry To="1440" Ix="5" V="1"/>
+				<Entry To="1440" Ix="6" V="1"/>
+				<Entry To="1440" Ix="7" V="1"/>
+				<Entry To="1440" Ix="8" V="1"/>
+				<Entry To="1440" Ix="9" V="1"/>
+				<C Type="RefUser" V="138" U="1616fcf7-006d-9752-ffff721641b000e9" Title="admin" Cl="0,0,0" Ref="1616fcf7-006d-974d-ffff721641b000e9" WF="16384"/>
+			</C>
+			<C Type="UserGroup" V="138" U="1616fcf7-006d-9754-ffff721641b000e9" Title="Gebruiker" WF="16384" Rights="129" UserModes="3" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+				<Entry To="1440" V="1"/>
+				<Entry To="1440" Ix="1" V="1"/>
+				<Entry To="1440" Ix="2" V="1"/>
+				<Entry To="1440" Ix="3" V="1"/>
+				<Entry To="1440" Ix="4" V="1"/>
+				<Entry To="1440" Ix="5" V="1"/>
+				<Entry To="1440" Ix="6" V="1"/>
+				<Entry To="1440" Ix="7" V="1"/>
+				<Entry To="1440" Ix="8" V="1"/>
+				<Entry To="1440" Ix="9" V="1"/>
+			</C>
+			<C Type="UserGroup" V="138" U="1616fcf7-006d-9756-ffff721641b000e9" Title="Alles" WF="16384" Rights="129" UgType="2" UserModes="3" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+				<Entry To="1440" V="1"/>
+				<Entry To="1440" Ix="1" V="1"/>
+				<Entry To="1440" Ix="2" V="1"/>
+				<Entry To="1440" Ix="3" V="1"/>
+				<Entry To="1440" Ix="4" V="1"/>
+				<Entry To="1440" Ix="5" V="1"/>
+				<Entry To="1440" Ix="6" V="1"/>
+				<Entry To="1440" Ix="7" V="1"/>
+				<Entry To="1440" Ix="8" V="1"/>
+				<Entry To="1440" Ix="9" V="1"/>
+				<C Type="RefUser" V="138" U="1616fcf7-006d-9758-ffff721641b000e9" Title="admin" Cl="0,0,0" Ref="1616fcf7-006d-974d-ffff721641b000e9" WF="16384"/>
+				<C Type="RefUser" V="138" U="1616fd30-03b7-982f-ffff721641b000e9" Title="Groep5" Cl="0,0,0" Ref="1616fd30-03b7-982d-ffff721641b000e9" WF="16384"/>
+			</C>
+			<C Type="UserGroup" V="138" U="1616fcf7-006d-975a-ffff721641b000e9" Title="Niemand " WF="16384" UgType="3" UserModes="3" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+				<Entry To="1440" V="1"/>
+				<Entry To="1440" Ix="1" V="1"/>
+				<Entry To="1440" Ix="2" V="1"/>
+				<Entry To="1440" Ix="3" V="1"/>
+				<Entry To="1440" Ix="4" V="1"/>
+				<Entry To="1440" Ix="5" V="1"/>
+				<Entry To="1440" Ix="6" V="1"/>
+				<Entry To="1440" Ix="7" V="1"/>
+				<Entry To="1440" Ix="8" V="1"/>
+				<Entry To="1440" Ix="9" V="1"/>
+			</C>
+		</C>
+		<C Type="ConstantCaption" V="138" U="1616fcf7-0012-9598-ffff721641b000e9" Title="Constanten" WF="16384"/>
+		<C Type="MemoryCaption" V="138" U="1616fcf7-0013-959a-ffff721641b000e9" Title="Marker" WF="16384"/>
+		<C Type="ModeCaption" V="138" U="1616fcf7-0013-959c-ffff721641b000e9" Title="Bedrijfsmodes" WF="16384">
+			<C Type="Mode" V="138" U="00000000-0000-0001-1500000000000000" Title="Feestdag" Nio="2" WF="16384">
+				<Co K="I" U="1616fcf7-0060-96fd-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0060-96fe-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-0002-1500000000000000" Title="Verlof" Nio="2" WF="16384" Mode="1">
+				<Co K="I" U="1616fcf7-0061-9701-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0061-9702-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-0003-1500000000000000" Title="Vrije dag/Schoolverlof" Nio="2" WF="16384" Mode="2">
+				<Co K="I" U="1616fcf7-0061-9705-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0061-9706-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-0004-1500000000000000" Title="Maandag" Nio="2" WF="16384" Mode="3">
+				<Co K="I" U="1616fcf7-0062-9709-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0062-970a-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-0005-1500000000000000" Title="Dinsdag" Nio="2" WF="16384" Mode="4">
+				<Co K="I" U="1616fcf7-0063-970d-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0063-970e-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-0006-1500000000000000" Title="Woensdag" Nio="2" WF="16384" Mode="5">
+				<Co K="I" U="1616fcf7-0064-9711-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0064-9712-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-0007-1500000000000000" Title="Donderdag" Nio="2" WF="16384" Mode="6">
+				<Co K="I" U="1616fcf7-0064-9715-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0064-9716-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-0008-1500000000000000" Title="Vrijdag" Nio="2" WF="16384" Mode="7">
+				<Co K="I" U="1616fcf7-0065-9719-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0065-971a-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-0009-1500000000000000" Title="Zaterdag" Nio="2" WF="16384" Mode="8">
+				<Co K="I" U="1616fcf7-0066-971d-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0066-971e-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-000a-1500000000000000" Title="Zondag" Nio="2" WF="16384" Mode="9">
+				<Co K="I" U="1616fcf7-0066-9721-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0066-9722-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-000b-1500000000000000" Title="Verwarming periode" Nio="2" WF="16384" Mode="10">
+				<Co K="I" U="1616fcf7-0067-9725-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0067-9726-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="00000000-0000-000c-1500000000000000" Title="Koeling periode" Nio="2" WF="16384" Mode="11">
+				<Co K="I" U="1616fcf7-0067-9729-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0067-972a-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="1616fcf7-0068-972f-ffff721641b000e9" Title="Alarm" Nio="2" WF="16384" Mode="-1">
+				<Co K="I" U="1616fcf7-0068-972d-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0068-972e-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="1616fcf7-0069-9733-ffff721641b000e9" Title="Aanwezigheidssimulatie" Nio="2" WF="16384" Mode="-2">
+				<Co K="I" U="1616fcf7-0069-9731-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0069-9732-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="1616fcf7-0069-9737-ffff721641b000e9" Title="Woning in diepe slaap" Nio="2" WF="16384" Mode="-3">
+				<Co K="I" U="1616fcf7-0069-9735-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-0069-9736-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="1616fcf7-006a-973b-ffff721641b000e9" Title="Verhoogde temperatuur" Nio="2" WF="16384" Mode="-4">
+				<Co K="I" U="1616fcf7-006a-9739-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-006a-973a-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="1616fcf7-006b-973f-ffff721641b000e9" Title="Party" Nio="2" WF="16384" Mode="-5">
+				<Co K="I" U="1616fcf7-006b-973d-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-006b-973e-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="1616fcf7-006b-9743-ffff721641b000e9" Title="Afwezig" Nio="2" WF="16384" Mode="-6">
+				<Co K="I" U="1616fcf7-006b-9741-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-006b-9742-ffff721641b000e9"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="138" U="16296cba-0012-8d36-ffff721641b000e9" Title="Altijd" Nio="2" WF="16384" Mode="-7">
+				<Co K="I" U="16296cba-0012-8d34-ffff44644ceb7554"/>
+				<Co K="Q" U="16296cba-0012-8d35-ffff44644ceb7554"/>
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+		</C>
+		<C Type="CalendarCaption" V="138" U="1616fcf7-0014-959e-ffff721641b000e9" Title="Bedrijfstijden" WF="16384">
+			<C Type="CalendarEntry" V="138" U="1616fcf7-006c-9747-ffff721641b000e9" Title="Verwarming periode" Nio="2" WF="16384" CalType="10" Mode="4" Month="10" Day="1" Month2="4" Day2="30" WeekDayInMonth="1">
+				<Co K="I" U="1616fcf7-006c-9745-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-006c-9746-ffff721641b000e9"/>
+			</C>
+			<C Type="CalendarEntry" V="138" U="1616fcf7-006d-974b-ffff721641b000e9" Title="Koeling periode" Nio="2" WF="16384" CalType="11" Mode="4" Month="5" Day="1" Month2="9" Day2="30" WeekDayInMonth="1">
+				<Co K="I" U="1616fcf7-006d-9749-ffff721641b000e9"/>
+				<Co K="Q" U="1616fcf7-006d-974a-ffff721641b000e9"/>
+			</C>
+			<C Type="CalendarEntry" V="138" U="16296cff-02bd-9f14-ffff721641b000e9" Title="Altijd" Nio="2" WF="16384" CalType="-7" Mode="4" Month="1" Day="1" Month2="1" Day2="1" From="4303" To="4303" WeekDayInMonth="1">
+				<Co K="I" U="16296cff-02bd-9f12-ffff510de17dce19"/>
+				<Co K="Q" U="16296cff-02bd-9f13-ffff510de17dce19"/>
+			</C>
+		</C>
+		<C Type="RemoteControls" V="138" U="1616fcf7-0015-95a0-ffff721641b000e9" Title="Afstandsbedieningen" WF="16384"/>
+		<C Type="TimeCaption" V="138" U="1616fcf7-0015-95a2-ffff721641b000e9" Title="Tijden" Cl="0,0,0" WF="16384">
+			<C Type="Day2009" V="138" U="1616fcf7-0016-95a5-ffff721641b000e9" Title="Dagen sinds 2009" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0016-95a4-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Year" V="138" U="1616fcf7-0016-95a8-ffff721641b000e9" Title="Jaar" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0016-95a7-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Month" V="138" U="1616fcf7-0017-95ab-ffff721641b000e9" Title="Maand" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0017-95aa-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Day" V="138" U="1616fcf7-0018-95ae-ffff721641b000e9" Title="Dag" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0018-95ad-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="DayOfWeek" V="138" U="1616fcf7-0018-95b1-ffff721641b000e9" Title="Weekdag" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0018-95b0-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Calendar" V="138" U="1616fcf7-0019-95b4-ffff721641b000e9" Title="Actieve bedrijfstijd" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0019-95b3-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Time" V="138" U="1616fcf7-001a-95b7-ffff721641b000e9" Title="Minuten sinds middernacht " Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001a-95b6-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Hour" V="138" U="1616fcf7-001a-95ba-ffff721641b000e9" Title="Uur" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001a-95b9-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Minute" V="138" U="1616fcf7-001b-95bd-ffff721641b000e9" Title="Minuten" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001b-95bc-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Second" V="138" U="1616fcf7-001b-95c0-ffff721641b000e9" Title="Seconden" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001b-95bf-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="SecondsBoot" V="138" U="1616fcf7-001c-95c3-ffff721641b000e9" Title="Seconden sinds opstart" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001c-95c2-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Sunrise" V="138" U="1616fcf7-001d-95c6-ffff721641b000e9" Title="Minuten tot zonsopgang" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001d-95c5-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Sunset" V="138" U="1616fcf7-001d-95c9-ffff721641b000e9" Title="Minuten tot zonsondergang" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001d-95c8-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Daylight" V="138" U="1616fcf7-001e-95cc-ffff721641b000e9" Title="Daglicht" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001e-95cb-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Daylight2" V="138" U="1616fcf7-001e-95cf-ffff721641b000e9" Title="Daglicht 30Min." Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001e-95ce-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Morningtwilight" V="138" U="1616fcf7-001f-95d2-ffff721641b000e9" Title="Minuten tot dageraad" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001f-95d1-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Eveningtwilight" V="138" U="1616fcf7-001f-95d5-ffff721641b000e9" Title="Minuten tot schemering" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-001f-95d4-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="SunAltitude" V="138" U="1616fcf7-0020-95d8-ffff721641b000e9" Title="Hoogte van de Zon" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0020-95d7-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="SunAzimuth" V="138" U="1616fcf7-0021-95db-ffff721641b000e9" Title="Richting van de Zon" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0021-95da-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="StartPulse" V="138" U="1616fcf7-0021-95de-ffff721641b000e9" Title="Start impuls" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0021-95dd-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseYear" V="138" U="1616fcf7-0022-95e1-ffff721641b000e9" Title="Puls jaar" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0022-95e0-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseMonth" V="138" U="1616fcf7-0023-95e4-ffff721641b000e9" Title="Puls maand" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0023-95e3-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseDay" V="138" U="1616fcf7-0023-95e7-ffff721641b000e9" Title="Puls dag" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0023-95e6-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseHour" V="138" U="1616fcf7-0024-95ea-ffff721641b000e9" Title="Puls uur" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0024-95e9-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseMinute" V="138" U="1616fcf7-0024-95ed-ffff721641b000e9" Title="Puls minuut" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0024-95ec-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseSecond" V="138" U="1616fcf7-0025-95f0-ffff721641b000e9" Title="Puls seconden" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0025-95ef-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseSunrise" V="138" U="1616fcf7-0026-95f3-ffff721641b000e9" Title="Puls zonsopgang" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0026-95f2-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseSunset" V="138" U="1616fcf7-0026-95f6-ffff721641b000e9" Title="Puls zonsondergang" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0026-95f5-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseMorningtwilight" V="138" U="1616fcf7-0027-95f9-ffff721641b000e9" Title="Puls dageraad" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0027-95f8-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseEveningtwilight" V="138" U="1616fcf7-0027-95fc-ffff721641b000e9" Title="Puls schemering" Nio="1" WF="16384">
+				<Co K="Q" U="1616fcf7-0027-95fb-ffff721641b000e9"/>
+				<IoData></IoData>
+			</C>
+		</C>
+		<C Type="WeatherServer" V="138" U="1616fd63-0199-9987-ffff721641b000e9" Title="Weer server " Cl="0,0,0" WF="16384" SType="0" Address="http://weather.loxone.com:6066" EnableSys="true" VisuUUID="16160000-0199-9985-ffffb9ae726b21ca" SpStates="1616fd63-0199-9986-ffffb9ae726b21ca">
+			<IoData Visu="true" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+			<C Type="WeatherData" IName="WDC34" V="138" U="1616fd63-0199-998a-ffff721641b000e9" Title="Zonneschijn" Nio="1" WF="16384" WType="34" SLs="600" SLw="120">
+				<Co K="AQ" U="1616fd63-0199-9989-ffffb9ae726b21ca"/>
+				<Display StateOnly="true"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+			</C>
+			<C Type="WeatherData" IName="WDC1" V="138" U="1616fd63-0199-998d-ffff721641b000e9" Title="Temperatuur" Nio="1" WF="16384" WType="1" SLs="600" SLw="120">
+				<Co K="AQ" U="1616fd63-0199-998c-ffffb9ae726b21ca"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+			</C>
+			<C Type="WeatherData" IName="WDC3" V="138" U="1616fd63-019a-9990-ffff721641b000e9" Title="Rel.lucht vochtigheid" Nio="1" WF="16384" WType="3" SLs="600" SLw="120">
+				<Co K="AQ" U="1616fd63-019a-998f-ffffb9ae726b21ca"/>
+				<Display Unit="&lt;v&gt;%" StateOnly="true"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+			</C>
+			<C Type="WeatherData" IName="WDC4" V="138" U="1616fd63-019a-9993-ffff721641b000e9" Title="Windsnelheid" Nio="1" WF="16384" WType="4" SLs="600" SLw="120">
+				<Co K="AQ" U="1616fd63-019a-9992-ffffb9ae726b21ca"/>
+				<Display Unit="&lt;v&gt;km/h" StateOnly="true"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+			</C>
+			<C Type="WeatherData" IName="WDC5" V="138" U="1616fd63-019a-9996-ffff721641b000e9" Title="Windrichting" Nio="1" WF="16384" WType="5" SLs="600" SLw="120">
+				<Co K="AQ" U="1616fd63-019a-9995-ffffb9ae726b21ca"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+			</C>
+			<C Type="WeatherData" IName="WDC7" V="138" U="1616fd63-019a-9999-ffff721641b000e9" Title="Absolute straling" Nio="1" WF="16384" WType="7" SLs="600" SLw="120">
+				<Co K="AQ" U="1616fd63-019a-9998-ffffb9ae726b21ca"/>
+				<Display Unit="&lt;v&gt;W/m²" StateOnly="true"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+			</C>
+			<C Type="WeatherData" IName="WDC9" V="138" U="1616fd63-019b-999c-ffff721641b000e9" Title="Neerslag" Nio="1" WF="16384" WType="9" SLs="600" SLw="120">
+				<Co K="AQ" U="1616fd63-019b-999b-ffffb9ae726b21ca"/>
+				<Display Unit="&lt;v.1&gt;mm" StateOnly="true"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+			</C>
+			<C Type="WeatherData" IName="WDC11" V="138" U="1616fd63-019b-999f-ffff721641b000e9" Title="Luchtdruk" Nio="1" WF="16384" WType="11" SLs="600" SLw="120">
+				<Co K="AQ" U="1616fd63-019b-999e-ffffb9ae726b21ca"/>
+				<Display Unit="&lt;v&gt;hPa" StateOnly="true"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+			</C>
+			<C Type="WeatherData" IName="WDC26" V="138" U="1616fd63-019b-99a2-ffff721641b000e9" Title="Gevoels temperatuur" Nio="1" WF="16384" WType="26" SLs="600" SLw="120">
+				<Co K="AQ" U="1616fd63-019b-99a1-ffffb9ae726b21ca"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+			</C>
+		</C>
+		<C Type="LoxCaption" V="138" U="1616fcf7-006d-975c-ffff721641b000e9" Title="Netwerkapparaten" Cl="0,0,0" WF="16384" CaptionType="6" SubType="6"/>
+		<C Type="GlobalStates" V="138" U="1616fcf7-002a-960f-ffff721641b000e9" Title="Systeemvariabelen" Cl="0,0,0" WF="16384" SpStates="1616fcf7-002a-960a-ffff721641b000e9,1616fcf7-002a-960b-ffff721641b000e9,1616fcf7-002a-960c-ffff721641b000e9,1616fcf7-002a-960d-ffff721641b000e9,1616fcf7-002a-960e-ffff721641b000e9">
+			<C Type="SysVar" IName="SYS1" V="138" U="1616fcf7-0086-980b-ffff721641b000e9" Title="Buitentemperatuur" Cl="0,0,0" Nio="3" EU="1" WF="6307840" source="1616fd63-0199-9987-ffff721641b000e9" MinVal="-80" MaxVal="150" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1616fcf7-0086-9808-ffffb9ae726b21ca"/>
+				<Co K="AQ" U="1616fcf7-0086-9809-ffffb9ae726b21ca"/>
+				<Co K="Q" U="1616fcf7-0086-980a-ffffb9ae726b21ca"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS2" V="138" U="1616fcf7-0086-9810-ffff721641b000e9" Title="Buitenluchtvochtigheid" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="1" source="1616fd63-0199-9987-ffff721641b000e9" MaxVal="100" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1616fcf7-0086-980d-ffffb9ae726b21ca"/>
+				<Co K="AQ" U="1616fcf7-0086-980e-ffffb9ae726b21ca"/>
+				<Co K="Q" U="1616fcf7-0086-980f-ffffb9ae726b21ca"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display Unit="&lt;v.1&gt;%" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS3" V="138" U="1616fcf7-0086-9815-ffff721641b000e9" Title="Windsnelheid" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="2" source="1616fd63-0199-9987-ffff721641b000e9" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1616fcf7-0086-9812-ffffb9ae726b21ca"/>
+				<Co K="AQ" U="1616fcf7-0086-9813-ffffb9ae726b21ca"/>
+				<Co K="Q" U="1616fcf7-0086-9814-ffffb9ae726b21ca"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display Unit="&lt;v&gt;km/h" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS4" V="138" U="1616fcf7-0086-981a-ffff721641b000e9" Title="Zonneschijn" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="3" source="1616fd63-0199-9987-ffff721641b000e9" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1616fcf7-0086-9817-ffffb9ae726b21ca"/>
+				<Co K="AQ" U="1616fcf7-0086-9818-ffffb9ae726b21ca"/>
+				<Co K="Q" U="1616fcf7-0086-9819-ffffb9ae726b21ca"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS5" V="138" U="1616fcf7-0086-981f-ffff721641b000e9" Title="Verwachte zonne-energie 12h" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="4" source="1616fd63-0199-9987-ffff721641b000e9" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1616fcf7-0086-981c-ffffb9ae726b21ca"/>
+				<Co K="AQ" U="1616fcf7-0086-981d-ffffb9ae726b21ca"/>
+				<Co K="Q" U="1616fcf7-0086-981e-ffffb9ae726b21ca"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display Unit="&lt;v&gt;Wh/m²" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS6" V="138" U="1616fcf7-0086-9824-ffff721641b000e9" Title="Verwachte zonne-energie 24h" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="5" source="1616fd63-0199-9987-ffff721641b000e9" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1616fcf7-0086-9821-ffffb9ae726b21ca"/>
+				<Co K="AQ" U="1616fcf7-0086-9822-ffffb9ae726b21ca"/>
+				<Co K="Q" U="1616fcf7-0086-9823-ffffb9ae726b21ca"/>
+				<IoData Cr="1616fcf7-0042-96a9-ffff721641b000e9" Pr="1616fcf7-0083-97f0-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display Unit="&lt;v&gt;Wh/m²" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS7" V="138" U="1616fcf7-0086-982a-ffff721641b000e9" Title="Internetverbinding" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="6" source="1616fcf7-0086-982a-ffff721641b000e9" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10" SpStates="1616fcf7-0086-9826-ffffb9ae726b21ca" OM="false">
+				<Co K="AI" U="1616fcf7-0086-9827-ffffb9ae726b21ca"/>
+				<Co K="AQ" U="1616fcf7-0086-9828-ffffb9ae726b21ca"/>
+				<Co K="Q" U="1616fcf7-0086-9829-ffffb9ae726b21ca"/>
+				<IoData Cr="1616fcf7-0031-9643-ffff721641b000e9" Pr="1616fcf7-0085-97fc-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<Display StateOnly="true"/>
+			</C>
+		</C>
+		<C Type="MessageCenter" V="138" U="1616fcf7-0029-9608-ffff721641b000e9" Title="Systeemstatus" Cl="0,0,0" WF="20480" SpStates="1616fcf7-0029-9607-ffff721641b000e9">
+			<IoData></IoData>
+		</C>
+		<C Type="Devicemonitor" V="138" U="1616fcf7-0029-9605-ffff721641b000e9" Title="DeviceMonitor" Cl="0,0,0" WF="20480" SpStates="1616fcf7-0029-9604-ffff721641b000e9">
+			<IoData Visu="true" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+		</C>
+		<C Type="AutoPilot" V="138" U="1616fcf7-0028-9602-ffff721641b000e9" Title="Automatische regels" Cl="0,0,0" Nio="2" WF="20480" SpStates="1616fcf7-0028-95fe-ffff721641b000e9,1616fcf7-0028-95ff-ffff721641b000e9" config="">
+			<Co K="Input" U="1616fcf7-0028-9600-ffff721641b000e9"/>
+			<Co K="output" U="1616fcf7-0028-9601-ffff721641b000e9"/>
+		</C>
+		<C Type="LoxLIVE" V="138" U="1616fd63-0035-9833-ffff721641b000e9" Title="Energiebesparing" WF="16400" CycleUserProt="-1" Serial="504F9411BD2A" Installation="" SwitchBoard="Verdeelbord" SwitchBoardRow="1" SwitchBoardPos="1" ExtAddr="" IntAddr="192.168.1.77" Pause="10" RxTimeout="1000" BaseID="-1">
+			<IoData></IoData>
+			<C Type="InputCaption" V="138" U="1616fd63-0046-9835-ffff721641b000e9" Title="Digitale ingangen" WF="16384">
+				<C Type="DigitalIn" IName="I1" V="138" U="1616fd63-0184-993a-ffff721641b000e9" Title="Ingang 1" Nio="1" WF="16384" MinTime="10">
+					<Co K="Q" U="1616fd63-0184-9939-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I2" V="138" U="1616fd63-0184-993d-ffff721641b000e9" Title="Ingang 2" Nio="1" WF="16384" MinTime="10">
+					<Co K="Q" U="1616fd63-0184-993c-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I3" V="138" U="1616fd63-0185-9940-ffff721641b000e9" Title="Ingang 3" Nio="1" WF="16384" MinTime="10">
+					<Co K="Q" U="1616fd63-0185-993f-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I4" V="138" U="1616fd63-0186-9943-ffff721641b000e9" Title="Ingang 4" Nio="1" WF="16384" MinTime="10">
+					<Co K="Q" U="1616fd63-0186-9942-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I5" V="138" U="1616fd63-0187-9946-ffff721641b000e9" Title="Ingang 5" Nio="1" WF="16384" MinTime="10">
+					<Co K="Q" U="1616fd63-0187-9945-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I6" V="138" U="1616fd63-0187-9949-ffff721641b000e9" Title="Ingang 6" Nio="1" WF="16384" MinTime="10">
+					<Co K="Q" U="1616fd63-0187-9948-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I7" V="138" U="1616fd63-0188-994c-ffff721641b000e9" Title="Ingang 7" Nio="1" WF="16384" MinTime="10">
+					<Co K="Q" U="1616fd63-0188-994b-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I8" V="138" U="1616fd63-0189-994f-ffff721641b000e9" Title="Ingang 8" Nio="1" WF="16384" MinTime="10">
+					<Co K="Q" U="1616fd63-0189-994e-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="AnalogInputCaption" V="138" U="1616fd63-0047-9837-ffff721641b000e9" Title="Analoge ingangen" WF="16384">
+				<C Type="VoltageIn" IName="AI1" V="138" U="1616fd63-018a-9953-ffff721641b000e9" Title="Spanning 1" Nio="2" WF="16384" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000">
+					<Co K="AQ" U="1616fd63-018a-9951-ffffb9ae726b21ca"/>
+					<Co K="Q" U="1616fd63-018a-9952-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageIn" IName="AI2" V="138" U="1616fd63-018a-9957-ffff721641b000e9" Title="Spanning 2" Nio="2" WF="16384" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000">
+					<Co K="AQ" U="1616fd63-018a-9955-ffffb9ae726b21ca"/>
+					<Co K="Q" U="1616fd63-018a-9956-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageIn" IName="AI3" V="138" U="1616fd63-018b-995b-ffff721641b000e9" Title="Spanning 3" Nio="2" WF="16384" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000">
+					<Co K="AQ" U="1616fd63-018b-9959-ffffb9ae726b21ca"/>
+					<Co K="Q" U="1616fd63-018b-995a-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageIn" IName="AI4" V="138" U="1616fd63-018c-995f-ffff721641b000e9" Title="Spanning 4" Nio="2" WF="16384" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000">
+					<Co K="AQ" U="1616fd63-018c-995d-ffffb9ae726b21ca"/>
+					<Co K="Q" U="1616fd63-018c-995e-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="OutputCaption" V="138" U="1616fd63-0047-9839-ffff721641b000e9" Title="Digitale uitgangen" WF="16384">
+				<C Type="Actor" IName="Q1" V="138" U="1616fd63-018d-9962-ffff721641b000e9" Title="Actor (relais) 1" Nio="1" WF="16400">
+					<Co K="I" Nc="1" U="1616fd63-018d-9961-ffffb9ae726b21ca">
+						<In Input="16296557-00f2-31cb-ffff3540268f7709"/>
+					</Co>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q2" V="138" U="1616fd63-018d-9965-ffff721641b000e9" Title="Actor (relais) 2" Nio="1" WF="16384">
+					<Co K="I" U="1616fd63-018d-9964-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q3" V="138" U="1616fd63-018e-9968-ffff721641b000e9" Title="Actor (relais) 3" Nio="1" WF="16384">
+					<Co K="I" U="1616fd63-018e-9967-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q4" V="138" U="1616fd63-018f-996b-ffff721641b000e9" Title="Actor (relais) 4" Nio="1" WF="16384">
+					<Co K="I" U="1616fd63-018f-996a-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q5" V="138" U="1616fd63-018f-996e-ffff721641b000e9" Title="Actor (relais) 5" Nio="1" WF="16384">
+					<Co K="I" U="1616fd63-018f-996d-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q6" V="138" U="1616fd63-0190-9971-ffff721641b000e9" Title="Actor (relais) 6" Nio="1" WF="16384">
+					<Co K="I" U="1616fd63-0190-9970-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q7" V="138" U="1616fd63-0191-9974-ffff721641b000e9" Title="Actor (relais) 7" Nio="1" WF="16384">
+					<Co K="I" U="1616fd63-0191-9973-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q8" V="138" U="1616fd63-0191-9977-ffff721641b000e9" Title="Actor (relais) 8" Nio="1" WF="16384">
+					<Co K="I" U="1616fd63-0191-9976-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="AnalogOutputCaption" V="138" U="1616fd63-0048-983b-ffff721641b000e9" Title="Analoge uitgangen" WF="16384">
+				<C Type="VoltageOut" IName="AQ1" V="138" U="1616fd63-0192-997a-ffff721641b000e9" Title="Spanning 1" Nio="1" WF="16384" Channel="1" SourceValHigh="10" DestValHigh="10">
+					<Co K="I" U="1616fd63-0192-9979-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageOut" IName="AQ2" V="138" U="1616fd63-0193-997d-ffff721641b000e9" Title="Spanning 2" Nio="1" WF="16384" Channel="1" SourceValHigh="10" DestValHigh="10">
+					<Co K="I" U="1616fd63-0193-997c-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageOut" IName="AQ3" V="138" U="1616fd63-0194-9980-ffff721641b000e9" Title="Spanning 3" Nio="1" WF="16384" Channel="1" SourceValHigh="10" DestValHigh="10">
+					<Co K="I" U="1616fd63-0194-997f-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageOut" IName="AQ4" V="138" U="1616fd63-0194-9983-ffff721641b000e9" Title="Spanning 4" Nio="1" WF="16384" Channel="1" SourceValHigh="10" DestValHigh="10">
+					<Co K="I" U="1616fd63-0194-9982-ffffb9ae726b21ca"/>
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="WeatherCaption" V="138" U="1616fd63-004e-984f-ffff721641b000e9" Title="Miniserver communicatie" WF="16384"/>
+			<C Type="EIBline" V="138" U="1616fd63-0049-983d-ffff721641b000e9" Title="KNX / EIB lijn" WF="16384" CycleUserProt="-1" Serial="00000000" Installation="" SwitchBoard="Verdeelbord" SwitchBoardRow="1" SwitchBoardPos="1" IntAddr="" Pause="10" RxTimeout="1000" BaseID="-1" EibAddr="1.1.250 14/">
+				<IoData></IoData>
+				<C Type="EIBsensorCaption" V="138" U="1616fd63-0049-983f-ffff721641b000e9" Title="Sensoren" WF="16384"/>
+				<C Type="EIBactorCaption" V="138" U="1616fd63-004a-9841-ffff721641b000e9" Title="Actoren" WF="16384"/>
+			</C>
+			<C Type="VirtualInCaption" V="138" U="1616fd63-004b-9843-ffff721641b000e9" Title="Virtuele ingangen" WF="16384">
+				<C Type="VirtualIn" IName="VI1" V="138" U="16170aed-02d1-632c-ffff721641b000e9" Title="Up" Nio="2" WF="16400" Analog="false" MaxVal="1" MinChange="0.5" MinTime="1000">
+					<Co K="Q" U="16170aed-02d1-632a-ffffd4313ba7f6c4"/>
+					<Co K="Qm" U="16170aed-02d1-632b-ffffd4313ba7f6c4"/>
+					<IoData Visu="true" Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Type="1" Unit="&lt;v.1&gt;"/>
+				</C>
+			</C>
+			<C Type="VirtualOutCaption" V="138" U="1616fd63-004b-9845-ffff721641b000e9" Title="Virtuele uitgangen" WF="16384"/>
+			<C Type="TaskCaption" V="138" U="1616fd63-004c-9849-ffff721641b000e9" Title="Opgenomen taken" Cl="0,0,0" WF="16384" gT="1616fd63-004c-9848-ffffb9ae726b21ca" pT="1616fd63-004c-9847-ffffb9ae726b21ca"/>
+			<C Type="LoxCaption" V="138" U="1616fd63-004c-984b-ffff721641b000e9" Title="SD-kaart" Cl="0,0,0" WF="16384" CaptionType="4" SubType="4"/>
+			<C Type="LoxCaption" V="138" U="1616fd63-004d-984d-ffff721641b000e9" Title="Verlichting groepen" Cl="0,0,0" WF="16384" CaptionType="7" SubType="7"/>
+			<C Type="LoggerOutCaption" V="138" U="1616fd63-004e-9851-ffff721641b000e9" Title="Meldingen" WF="16384">
+				<C Type="Logger" V="138" U="1616fd63-004f-9853-ffff721641b000e9" Title="Standaard logger" WF="16384" Address="/log/user.log"/>
+				<C Type="Notification" V="138" U="1616fd63-0050-9855-ffff721641b000e9" Title="Systeem meldingen" WF="16384" Entries="10" Sys="true">
+					<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				</C>
+				<C Type="Mailer" V="138" U="1616fd63-0051-9857-ffff721641b000e9" Title="Loxone Cloud Mailer" WF="16384" Cloud="true" Msg="true" EnableSys="true" SmtpReceiver="s087292@ap.be" SmtpSubject="Energiebesparing"/>
+				<C Type="Caller" V="138" U="1616fd63-0051-9859-ffff721641b000e9" Title="Brandweer" WF="16384" Phone="" EnableSys="true" ES="1">
+					<C Type="CallerVirtualIn" IName="CVI0" V="138" U="1616fd63-0052-985c-ffff721641b000e9" Title="Keuzetoets 0" Nio="1" WF="16384" MinTime="10">
+						<Co K="Qm" U="1616fd63-0052-985b-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI1" V="138" U="1616fd63-0053-985f-ffff721641b000e9" Title="Keuzetoets 1" Nio="1" WF="16384" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1616fd63-0053-985e-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI2" V="138" U="1616fd63-0054-9862-ffff721641b000e9" Title="Keuzetoets 2" Nio="1" WF="16384" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1616fd63-0054-9861-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI3" V="138" U="1616fd63-0055-9865-ffff721641b000e9" Title="Keuzetoets 3" Nio="1" WF="16384" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1616fd63-0055-9864-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI4" V="138" U="1616fd63-0056-9868-ffff721641b000e9" Title="Keuzetoets 4" Nio="1" WF="16384" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1616fd63-0056-9867-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI5" V="138" U="1616fd63-0056-986b-ffff721641b000e9" Title="Keuzetoets 5" Nio="1" WF="16384" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1616fd63-0056-986a-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI6" V="138" U="1616fd63-0057-986e-ffff721641b000e9" Title="Keuzetoets 6" Nio="1" WF="16384" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1616fd63-0057-986d-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI7" V="138" U="1616fd63-0058-9871-ffff721641b000e9" Title="Keuzetoets 7" Nio="1" WF="16384" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1616fd63-0058-9870-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI8" V="138" U="1616fd63-0059-9874-ffff721641b000e9" Title="Keuzetoets 8" Nio="1" WF="16384" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1616fd63-0059-9873-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI9" V="138" U="1616fd63-005a-9877-ffff721641b000e9" Title="Keuzetoets 9" Nio="1" WF="16384" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1616fd63-005a-9876-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="138" U="1616fd63-005a-9879-ffff721641b000e9" Title="Politie" WF="16384" Phone="" EnableSys="true" ES="2">
+					<C Type="CallerVirtualIn" IName="CVI10" V="138" U="1616fd63-005c-987c-ffff721641b000e9" Title="Keuzetoets 0" Nio="1" WF="16384" MinTime="10">
+						<Co K="Qm" U="1616fd63-005c-987b-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI11" V="138" U="1616fd63-005f-987f-ffff721641b000e9" Title="Keuzetoets 1" Nio="1" WF="16384" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1616fd63-005f-987e-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI12" V="138" U="1616fd63-0061-9882-ffff721641b000e9" Title="Keuzetoets 2" Nio="1" WF="16384" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1616fd63-0061-9881-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI13" V="138" U="1616fd63-0063-9885-ffff721641b000e9" Title="Keuzetoets 3" Nio="1" WF="16384" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1616fd63-0063-9884-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI14" V="138" U="1616fd63-0064-9888-ffff721641b000e9" Title="Keuzetoets 4" Nio="1" WF="16384" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1616fd63-0064-9887-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI15" V="138" U="1616fd63-0067-988b-ffff721641b000e9" Title="Keuzetoets 5" Nio="1" WF="16384" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1616fd63-0067-988a-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI16" V="138" U="1616fd63-0069-988e-ffff721641b000e9" Title="Keuzetoets 6" Nio="1" WF="16384" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1616fd63-0069-988d-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI17" V="138" U="1616fd63-006b-9891-ffff721641b000e9" Title="Keuzetoets 7" Nio="1" WF="16384" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1616fd63-006b-9890-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI18" V="138" U="1616fd63-006e-9894-ffff721641b000e9" Title="Keuzetoets 8" Nio="1" WF="16384" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1616fd63-006e-9893-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI19" V="138" U="1616fd63-0070-9897-ffff721641b000e9" Title="Keuzetoets 9" Nio="1" WF="16384" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1616fd63-0070-9896-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="138" U="1616fd63-0070-9899-ffff721641b000e9" Title="Hulpdiensten" WF="16384" Phone="" EnableSys="true" ES="3">
+					<C Type="CallerVirtualIn" IName="CVI20" V="138" U="1616fd63-0074-989c-ffff721641b000e9" Title="Keuzetoets 0" Nio="1" WF="16384" MinTime="10">
+						<Co K="Qm" U="1616fd63-0074-989b-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI21" V="138" U="1616fd63-0077-989f-ffff721641b000e9" Title="Keuzetoets 1" Nio="1" WF="16384" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1616fd63-0077-989e-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI22" V="138" U="1616fd63-007a-98a2-ffff721641b000e9" Title="Keuzetoets 2" Nio="1" WF="16384" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1616fd63-007a-98a1-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI23" V="138" U="1616fd63-007d-98a5-ffff721641b000e9" Title="Keuzetoets 3" Nio="1" WF="16384" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1616fd63-007d-98a4-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI24" V="138" U="1616fd63-0080-98a8-ffff721641b000e9" Title="Keuzetoets 4" Nio="1" WF="16384" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1616fd63-0080-98a7-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI25" V="138" U="1616fd63-0083-98ab-ffff721641b000e9" Title="Keuzetoets 5" Nio="1" WF="16384" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1616fd63-0083-98aa-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI26" V="138" U="1616fd63-0086-98ae-ffff721641b000e9" Title="Keuzetoets 6" Nio="1" WF="16384" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1616fd63-0086-98ad-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI27" V="138" U="1616fd63-0089-98b1-ffff721641b000e9" Title="Keuzetoets 7" Nio="1" WF="16384" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1616fd63-0089-98b0-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI28" V="138" U="1616fd63-008c-98b4-ffff721641b000e9" Title="Keuzetoets 8" Nio="1" WF="16384" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1616fd63-008c-98b3-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI29" V="138" U="1616fd63-0090-98b7-ffff721641b000e9" Title="Keuzetoets 9" Nio="1" WF="16384" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1616fd63-0090-98b6-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="138" U="1616fd63-0090-98b9-ffff721641b000e9" Title="Noodgevallen contact 1" WF="16384" Phone="" EnableSys="true">
+					<C Type="CallerVirtualIn" IName="CVI30" V="138" U="1616fd63-0095-98bc-ffff721641b000e9" Title="Keuzetoets 0" Nio="1" WF="16384" MinTime="10">
+						<Co K="Qm" U="1616fd63-0095-98bb-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI31" V="138" U="1616fd63-0099-98bf-ffff721641b000e9" Title="Keuzetoets 1" Nio="1" WF="16384" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1616fd63-0099-98be-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI32" V="138" U="1616fd63-009d-98c2-ffff721641b000e9" Title="Keuzetoets 2" Nio="1" WF="16384" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1616fd63-009d-98c1-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI33" V="138" U="1616fd63-00a1-98c5-ffff721641b000e9" Title="Keuzetoets 3" Nio="1" WF="16384" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1616fd63-00a1-98c4-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI34" V="138" U="1616fd63-00a5-98c8-ffff721641b000e9" Title="Keuzetoets 4" Nio="1" WF="16384" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1616fd63-00a5-98c7-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI35" V="138" U="1616fd63-00a9-98cb-ffff721641b000e9" Title="Keuzetoets 5" Nio="1" WF="16384" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1616fd63-00a9-98ca-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI36" V="138" U="1616fd63-00ad-98ce-ffff721641b000e9" Title="Keuzetoets 6" Nio="1" WF="16384" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1616fd63-00ad-98cd-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI37" V="138" U="1616fd63-00b2-98d1-ffff721641b000e9" Title="Keuzetoets 7" Nio="1" WF="16384" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1616fd63-00b2-98d0-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI38" V="138" U="1616fd63-00b6-98d4-ffff721641b000e9" Title="Keuzetoets 8" Nio="1" WF="16384" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1616fd63-00b6-98d3-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI39" V="138" U="1616fd63-00ba-98d7-ffff721641b000e9" Title="Keuzetoets 9" Nio="1" WF="16384" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1616fd63-00ba-98d6-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="138" U="1616fd63-00bb-98d9-ffff721641b000e9" Title="Noodgevallen contact 2" WF="16384" Phone="" EnableSys="true">
+					<C Type="CallerVirtualIn" IName="CVI40" V="138" U="1616fd63-00c0-98dc-ffff721641b000e9" Title="Keuzetoets 0" Nio="1" WF="16384" MinTime="10">
+						<Co K="Qm" U="1616fd63-00c0-98db-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI41" V="138" U="1616fd63-00c6-98df-ffff721641b000e9" Title="Keuzetoets 1" Nio="1" WF="16384" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1616fd63-00c6-98de-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI42" V="138" U="1616fd63-00cb-98e2-ffff721641b000e9" Title="Keuzetoets 2" Nio="1" WF="16384" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1616fd63-00cb-98e1-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI43" V="138" U="1616fd63-00d0-98e5-ffff721641b000e9" Title="Keuzetoets 3" Nio="1" WF="16384" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1616fd63-00d0-98e4-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI44" V="138" U="1616fd63-00d6-98e8-ffff721641b000e9" Title="Keuzetoets 4" Nio="1" WF="16384" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1616fd63-00d6-98e7-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI45" V="138" U="1616fd63-00db-98eb-ffff721641b000e9" Title="Keuzetoets 5" Nio="1" WF="16384" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1616fd63-00db-98ea-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI46" V="138" U="1616fd63-00e1-98ee-ffff721641b000e9" Title="Keuzetoets 6" Nio="1" WF="16384" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1616fd63-00e1-98ed-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI47" V="138" U="1616fd63-00e6-98f1-ffff721641b000e9" Title="Keuzetoets 7" Nio="1" WF="16384" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1616fd63-00e6-98f0-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI48" V="138" U="1616fd63-00eb-98f4-ffff721641b000e9" Title="Keuzetoets 8" Nio="1" WF="16384" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1616fd63-00eb-98f3-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI49" V="138" U="1616fd63-00f1-98f7-ffff721641b000e9" Title="Keuzetoets 9" Nio="1" WF="16384" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1616fd63-00f1-98f6-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="138" U="1616fd63-00f2-98f9-ffff721641b000e9" Title="Noodgevallen contact 3" WF="16384" Phone="" EnableSys="true">
+					<C Type="CallerVirtualIn" IName="CVI50" V="138" U="1616fd63-00f8-98fc-ffff721641b000e9" Title="Keuzetoets 0" Nio="1" WF="16384" MinTime="10">
+						<Co K="Qm" U="1616fd63-00f8-98fb-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI51" V="138" U="1616fd63-00ff-98ff-ffff721641b000e9" Title="Keuzetoets 1" Nio="1" WF="16384" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1616fd63-00ff-98fe-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI52" V="138" U="1616fd63-0105-9902-ffff721641b000e9" Title="Keuzetoets 2" Nio="1" WF="16384" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1616fd63-0105-9901-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI53" V="138" U="1616fd63-010c-9905-ffff721641b000e9" Title="Keuzetoets 3" Nio="1" WF="16384" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1616fd63-010c-9904-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI54" V="138" U="1616fd63-0113-9908-ffff721641b000e9" Title="Keuzetoets 4" Nio="1" WF="16384" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1616fd63-0113-9907-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI55" V="138" U="1616fd63-0119-990b-ffff721641b000e9" Title="Keuzetoets 5" Nio="1" WF="16384" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1616fd63-0119-990a-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI56" V="138" U="1616fd63-0120-990e-ffff721641b000e9" Title="Keuzetoets 6" Nio="1" WF="16384" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1616fd63-0120-990d-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI57" V="138" U="1616fd63-0126-9911-ffff721641b000e9" Title="Keuzetoets 7" Nio="1" WF="16384" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1616fd63-0126-9910-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI58" V="138" U="1616fd63-012d-9914-ffff721641b000e9" Title="Keuzetoets 8" Nio="1" WF="16384" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1616fd63-012d-9913-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI59" V="138" U="1616fd63-0133-9917-ffff721641b000e9" Title="Keuzetoets 9" Nio="1" WF="16384" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1616fd63-0133-9916-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="138" U="1616fd63-0134-9919-ffff721641b000e9" Title="Noodgevallen contact 4" WF="16384" Phone="" EnableSys="true">
+					<C Type="CallerVirtualIn" IName="CVI60" V="138" U="1616fd63-013c-991c-ffff721641b000e9" Title="Keuzetoets 0" Nio="1" WF="16384" MinTime="10">
+						<Co K="Qm" U="1616fd63-013c-991b-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI61" V="138" U="1616fd63-0144-991f-ffff721641b000e9" Title="Keuzetoets 1" Nio="1" WF="16384" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1616fd63-0144-991e-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI62" V="138" U="1616fd63-014c-9922-ffff721641b000e9" Title="Keuzetoets 2" Nio="1" WF="16384" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1616fd63-014c-9921-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI63" V="138" U="1616fd63-0153-9925-ffff721641b000e9" Title="Keuzetoets 3" Nio="1" WF="16384" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1616fd63-0153-9924-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI64" V="138" U="1616fd63-015b-9928-ffff721641b000e9" Title="Keuzetoets 4" Nio="1" WF="16384" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1616fd63-015b-9927-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI65" V="138" U="1616fd63-0163-992b-ffff721641b000e9" Title="Keuzetoets 5" Nio="1" WF="16384" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1616fd63-0163-992a-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI66" V="138" U="1616fd63-016a-992e-ffff721641b000e9" Title="Keuzetoets 6" Nio="1" WF="16384" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1616fd63-016a-992d-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI67" V="138" U="1616fd63-0172-9931-ffff721641b000e9" Title="Keuzetoets 7" Nio="1" WF="16384" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1616fd63-0172-9930-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI68" V="138" U="1616fd63-017a-9934-ffff721641b000e9" Title="Keuzetoets 8" Nio="1" WF="16384" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1616fd63-017a-9933-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI69" V="138" U="1616fd63-0182-9937-ffff721641b000e9" Title="Keuzetoets 9" Nio="1" WF="16384" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1616fd63-0182-9936-ffffb9ae726b21ca"/>
+						<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+			</C>
+			<C Type="LoxAIR" V="138" U="161709c0-0159-3b46-ffff721641b000e9" Title="Air Base Extension" WF="16384" CycleUserProt="-1" Serial="0CD8E6A8" AirCh="100" Installation="" SwitchBoard="Verdeelbord" SwitchBoardRow="1" SwitchBoardPos="3" ExtensionBlinkNum="4" IntAddr="" Pause="10" RxTimeout="1000" BaseID="-1">
+				<Key>1E8321A0990ED78DBB6E62A8A8D0E93F724546BE350AA46EEDB9D96630860946</Key>
+				<IoData></IoData>
+				<C Type="Online" IName="S1" V="138" U="161709c0-0166-3b4c-ffff721641b000e9" Title="Radio kanaal vrij Air Base Extension" Cl="0,0,0" Nio="1" WF="20480" MinTime="10" EnoceanSubType="1" NoMsg="true">
+					<Co K="Q" U="161709c0-0166-3b4b-ffffac7869cb74bb"/>
+					<IoData Cr="1616fcf7-0031-9643-ffff721641b000e9" Pr="1616fcf7-0085-97fc-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Online" IName="S0" V="138" U="161709c0-0166-3b49-ffff721641b000e9" Title="Online status Air Base Extension" Cl="0,0,0" Nio="1" WF="20480" MinTime="10">
+					<Co K="Q" U="161709c0-0166-3b48-ffffac7869cb74bb"/>
+					<IoData Cr="1616fcf7-0031-9643-ffff721641b000e9" Pr="1616fcf7-0085-97fc-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true" IxText="8"/>
+				</C>
+				<C Type="LoxAIRDevice" V="138" U="16296abb-0392-4a35-ffff721641b000e9" Title="Rookmelder Air" WF="16384" IP="FE80000000000000524F94FFFE8E1A70" AirType="19" SubType="19" Battery="true" UseDimmer="true" UseRGBDimmer="true" PWMFrequency="123" PG="" Installation="" SwitchBoard="" SwitchBoardRow="1" SwitchBoardPos="1">
+					<IoData Pr="1616fcf7-006f-9760-ffff721641b000e9"/>
+					<C Type="Online" IName="S0" V="138" U="16296abb-03a2-4c74-ffff721641b000e9" Title="Online status Rookmelder Air" Cl="0,0,0" Nio="1" WF="20480" MinTime="10">
+						<Co K="Q" U="16296abb-03a2-4c73-ffff52f9755c869a"/>
+						<IoData Cr="1616fcf7-0031-9643-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true" IxText="8"/>
+					</C>
+					<C Type="LoxAIRsensor" IName="I1" V="138" U="16296abb-03a2-4c85-ffff721641b000e9" Title="Alarm" Cl="0,0,0" Nio="1" WF="16384" MinTime="10" EnoceanSubType="67">
+						<Co K="Q" U="16296abb-03a2-4c84-ffff52f9755c869a"/>
+						<IoData Cr="1616fcf7-0032-964b-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="LoxAIRsensor" IName="I2" V="138" U="16296abb-03a2-4c8c-ffff721641b000e9" Title="Batterij zwak" Cl="0,0,0" Nio="1" WF="20480" MinTime="10" EnoceanSubType="68">
+						<Co K="Q" U="16296abb-03a2-4c8b-ffff52f9755c869a"/>
+						<IoData Cr="1616fcf7-0031-9643-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="LoxAIRAsensor" IName="AI1" V="138" U="16296abb-03a2-4c95-ffff721641b000e9" Title="Accucapaciteit" Cl="0,0,0" Nio="2" WF="20480" Analog="true" EnoceanSubType="69" SourceValHigh="100" DestValHigh="100" MaxVal="100" MinChange="0.25" MinTime="1000">
+						<Co K="AQ" U="16296abb-03a2-4c93-ffff52f9755c869a"/>
+						<Co K="Q" U="16296abb-03a2-4c94-ffff52f9755c869a"/>
+						<IoData Cr="1616fcf7-0031-9643-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+						<Display Type="2" Unit="&lt;v&gt;%" StateOnly="true"/>
+					</C>
+				</C>
+			</C>
+			<C Type="LoxTree" V="138" U="162902f2-0242-bc56-ffff721641b000e9" Title="Tree Extension" WF="16384" CycleUserProt="-1" Serial="1310B6C8" Installation="" SwitchBoard="Verdeelbord" SwitchBoardRow="1" SwitchBoardPos="5" ExtensionBlinkNum="8" IntAddr="" Pause="10" RxTimeout="1000" BaseID="-1">
+				<IoData></IoData>
+				<C Type="Online" IName="S0" V="138" U="162902f2-024c-bc59-ffff721641b000e9" Title="Online status Tree Extension" Cl="0,0,0" Nio="1" WF="20480" MinTime="10">
+					<Co K="Q" U="162902f2-024c-bc58-ffffc954da85c37e"/>
+					<IoData Cr="1616fcf7-0031-9643-ffff721641b000e9" Pr="1616fcf7-0085-97fc-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true" IxText="8"/>
+				</C>
+				<C Type="LoxCaption" V="138" U="162902f2-024c-bc5b-ffff721641b000e9" Title="Tree tak" Cl="0,0,0" WF="16384" CaptionType="2" SubType="2" IntId="Onbekend ">
+					<C Type="TreeDevice" V="138" U="16290343-0206-e41e-ffff721641b000e9" Title="RGBW 24V Dimmer Tree" WF="16384" Serial="C0114A0C" SubType="32780" TreeType="32780" PG="" Installation="" SwitchBoard="" SwitchBoardRow="1" SwitchBoardPos="1" Rgb="true">
+						<IoData Pr="1616fcf7-006f-9760-ffff721641b000e9"/>
+						<C Type="Online" IName="S0" V="138" U="16290343-020f-e45f-ffff721641b000e9" Title="Online status RGBW 24V Dimmer Tree" Cl="0,0,0" Nio="1" WF="20480" MinTime="10">
+							<Co K="Q" U="16290343-020f-e45e-ffff481e388a6360"/>
+							<IoData Cr="1616fcf7-0031-9643-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+							<Display Unit="&lt;v&gt;" StateOnly="true" IxText="8"/>
+						</C>
+						<C Type="TreeAactor" IName="AQ1" V="138" U="16290343-020f-e463-ffff721641b000e9" Title="Smartactor RGBW" Cl="0,0,0" Nio="1" WF="16400" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" CCap="31" SubType="158">
+							<Co K="I" Nc="1" U="16290343-020f-e462-ffff481e388a6360">
+								<In Input="16290d2f-0187-176f-ffff4b91cedc8f4d"/>
+							</Co>
+							<IoData Cr="1616fcf7-002c-9617-ffff721641b000e9" Pr="1616fcf7-007b-97ba-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+							<Display Unit="&lt;v.col&gt;" StateOnly="true"/>
+						</C>
+					</C>
+					<C Type="TreeDevice" V="138" U="16290344-034e-ea20-ffff721641b000e9" Title="Touch Tree" WF="16384" Serial="B01FE59C" SubType="32771" TreeType="32771" PG="" Installation="" SwitchBoard="" SwitchBoardRow="1" SwitchBoardPos="1" AC="1">
+						<IoData Pr="1616fcf7-006f-9760-ffff721641b000e9"/>
+						<C Type="Online" IName="S0" V="138" U="16290344-0358-ea64-ffff721641b000e9" Title="Online status Touch Tree" Cl="0,0,0" Nio="1" WF="20480" MinTime="10">
+							<Co K="Q" U="16290344-0358-ea63-ffff39799cfa3d4a"/>
+							<IoData Cr="1616fcf7-0031-9643-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+							<Display Unit="&lt;v&gt;" StateOnly="true" IxText="8"/>
+						</C>
+						<C Type="TreeSensor" IName="I1" V="138" U="16290344-0358-ea68-ffff721641b000e9" Title="I1" Cl="0,0,0" Nio="1" WF="20480" MinTime="10" EnoceanSubType="16">
+							<Co K="Q" U="16290344-0358-ea67-ffff39799cfa3d4a"/>
+							<IoData Cr="1616fcf7-002d-961b-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+							<Display Unit="&lt;v&gt;" StateOnly="true"/>
+						</C>
+						<C Type="TreeSensor" IName="I2" V="138" U="16290344-0358-ea6b-ffff721641b000e9" Title="I2" Cl="0,0,0" Nio="1" WF="20480" MinTime="10" EnoceanSubType="17">
+							<Co K="Q" U="16290344-0358-ea6a-ffff39799cfa3d4a"/>
+							<IoData Cr="1616fcf7-002e-9627-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+							<Display Unit="&lt;v&gt;" StateOnly="true"/>
+						</C>
+						<C Type="TreeSensor" IName="I3" V="138" U="16290344-0358-ea6e-ffff721641b000e9" Title="I3" Cl="0,0,0" Nio="1" WF="20480" MinTime="10" EnoceanSubType="18">
+							<Co K="Q" U="16290344-0358-ea6d-ffff39799cfa3d4a"/>
+							<IoData Cr="1616fcf7-002c-9617-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+							<Display Unit="&lt;v&gt;" StateOnly="true"/>
+						</C>
+						<C Type="TreeSensor" IName="I4" V="138" U="16290344-0358-ea72-ffff721641b000e9" Title="I4" Cl="0,0,0" Nio="1" WF="20480" MinTime="10" EnoceanSubType="19">
+							<Co K="Q" U="16290344-0358-ea71-ffff39799cfa3d4a"/>
+							<IoData Cr="1616fcf7-002d-961b-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+							<Display Unit="&lt;v&gt;" StateOnly="true"/>
+						</C>
+						<C Type="TreeSensor" IName="I5" V="138" U="16290344-0358-ea75-ffff721641b000e9" Title="I5" Cl="0,0,0" Nio="1" WF="20480" MinTime="10" EnoceanSubType="20">
+							<Co K="Q" U="16290344-0358-ea74-ffff39799cfa3d4a"/>
+							<IoData Cr="1616fcf7-002e-9627-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+							<Display Unit="&lt;v&gt;" StateOnly="true"/>
+						</C>
+						<C Type="TreeAsensor" IName="AI1" V="138" U="16290344-0358-ea79-ffff721641b000e9" Title="Temperatuur" Cl="0,0,0" Nio="2" WF="16384" Analog="true" EnoceanSubType="1" SourceValHigh="100" DestValHigh="100" MinVal="-40" MaxVal="125" MinChange="0.25" MinTime="1000">
+							<Co K="AQ" U="16290344-0358-ea77-ffff39799cfa3d4a"/>
+							<Co K="Q" U="16290344-0358-ea78-ffff39799cfa3d4a"/>
+							<IoData Cr="1616fcf7-0030-9633-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+							<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
+						</C>
+						<C Type="TreeAsensor" IName="AI2" V="138" U="16290344-0358-ea7d-ffff721641b000e9" Title="Luchtvochtigheid" Cl="0,0,0" Nio="2" WF="16384" Analog="true" EnoceanSubType="2" SourceValHigh="1" DestValHigh="1" MaxVal="100" MinChange="0.25" MinTime="1000">
+							<Co K="AQ" U="16290344-0358-ea7b-ffff39799cfa3d4a"/>
+							<Co K="Q" U="16290344-0358-ea7c-ffff39799cfa3d4a"/>
+							<IoData Cr="1616fcf7-002f-962b-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+							<Display Type="2" Unit="&lt;v&gt;%" StateOnly="true"/>
+						</C>
+						<C Type="TreeAsensor" IName="AI3" V="138" U="16290344-0358-ea81-ffff721641b000e9" Title="T5" Cl="0,0,0" Nio="2" WF="16400" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000">
+							<Co K="AQ" U="16290344-0358-ea7f-ffff39799cfa3d4a"/>
+							<Co K="Q" U="16290344-0358-ea80-ffff39799cfa3d4a"/>
+							<IoData Cr="1616fcf7-0046-96c5-ffff721641b000e9" Pr="1616fcf7-007b-97ba-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+							<Display Type="2" Unit="&lt;v.i&gt;" StateOnly="true"/>
+						</C>
+						<C Type="TreeActor" IName="Q1" V="138" U="16290344-0358-ea85-ffff721641b000e9" Title="Akoestisch kliksignaal" Cl="0,0,0" Nio="1" WF="20480" SubType="163">
+							<Co K="I" U="16290344-0358-ea84-ffff39799cfa3d4a"/>
+							<IoData Cr="1616fcf7-0032-964b-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+							<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+						</C>
+					</C>
+					<C Type="TreeDevice" V="138" U="16290a06-0374-202d-ffff721641b000e9" Title="Bewegingsmelder Tree" WF="16384" Serial="B01FB430" SubType="32770" TreeType="32770" PG="" Installation="Plafond" SwitchBoard="" SwitchBoardRow="1" SwitchBoardPos="1" LI="1">
+						<IoData Pr="1616fcf7-006f-9760-ffff721641b000e9"/>
+						<C Type="Online" IName="S0" V="138" U="16290a06-037b-2030-ffff721641b000e9" Title="Online status Bewegingsmelder Tree" Cl="0,0,0" Nio="1" WF="20480" MinTime="10">
+							<Co K="Q" U="16290a06-037b-202f-ffffe1fb893c3d63"/>
+							<IoData Cr="1616fcf7-0031-9643-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+							<Display Unit="&lt;v&gt;" StateOnly="true" IxText="8"/>
+						</C>
+						<C Type="TreeSensor" IName="I1" V="138" U="16290a06-037b-2033-ffff721641b000e9" Title="Beweging" Cl="0,0,0" Nio="1" WF="16384" MinTime="10" EnoceanSubType="4">
+							<Co K="Q" U="16290a06-037b-2032-ffffe1fb893c3d63"/>
+							<IoData Cr="1616fcf7-0030-9637-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9" St="2"/>
+							<Display Unit="&lt;v&gt;" StateOnly="true"/>
+						</C>
+						<C Type="TreeAsensor" IName="AI1" V="138" U="16290a06-037b-2037-ffff721641b000e9" Title="Helderheid" Cl="0,0,0" Nio="2" WF="16384" Analog="true" EnoceanSubType="5" SourceValHigh="1" DestValHigh="1" MaxVal="10000" MinChange="0.25" MinTime="1000">
+							<Co K="AQ" U="16290a06-037b-2035-ffffe1fb893c3d63"/>
+							<Co K="Q" U="16290a06-037b-2036-ffffe1fb893c3d63"/>
+							<IoData Cr="1616fcf7-002c-9617-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+							<Display Type="2" Unit="&lt;v&gt;Lx" StateOnly="true"/>
+						</C>
+					</C>
+				</C>
+				<C Type="LoxCaption" V="138" U="162902f2-024d-bc5d-ffff721641b000e9" Title="Tree tak" Cl="0,0,0" WF="16384" CaptionType="3" SubType="3" IntId="Onbekend "/>
+			</C>
+		</C>
+		<C Type="Program" V="138" U="1616fd63-01a4-99a4-ffff721641b000e9" Title="Energiebesparing" Ref="1616fd63-0035-9833-ffff721641b000e9" WF="16384">
+			<C Type="Page" V="138" U="1616fd63-01a4-99a6-ffff721641b000e9" Title="Pagina" WF="16384">
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<C Type="Jalousiemotor" V="138" U="16170a89-03df-4fb4-ffff721641b000e9" Title="Automatische jaloezie geïntegreerd" Px="10080" Py="6528" Px2="12768" Py2="7776" Cl="105,195,80" Nio="40" SpStates="16170a89-03df-4f83-ffffdee50f3f5513,16170a89-03df-4f84-ffffdee50f3f5513,16170a89-03df-4f85-ffffdee50f3f5513,16170a89-03df-4f86-ffffdee50f3f5513,16170a89-03df-4f87-ffffdee50f3f5513,16170a89-03df-4f88-ffffdee50f3f5513,16170a89-03df-4f89-ffffdee50f3f5513,16170a89-03df-4f8a-ffffdee50f3f5513">
+					<Co K="InputTrigger" U="16170a89-03df-4f8b-ffffdee50f3f5513"/>
+					<Co K="InputTriggerUp" Nc="1" U="16170a89-03df-4f8c-ffffdee50f3f5513">
+						<In Input="16170af8-0365-6bc6-ffff426d8b03169c"/>
+					</Co>
+					<Co K="InputTriggerDown" U="16170a89-03df-4f8d-ffffdee50f3f5513"/>
+					<Co K="EndUp" U="16170a89-03df-4f8f-ffffdee50f3f5513"/>
+					<Co K="EndDown" U="16170a89-03df-4f90-ffffdee50f3f5513"/>
+					<Co K="Shade" U="16170a89-03df-4f91-ffffdee50f3f5513"/>
+					<Co K="AutoShade" U="16170a89-03df-4f92-ffffdee50f3f5513"/>
+					<Co K="EnAutoShade" U="16170a89-03df-4f93-ffffdee50f3f5513"/>
+					<Co K="ReactAutoShade" U="16170a89-03df-4f94-ffffdee50f3f5513"/>
+					<Co K="Safety" U="16170a89-03df-4f95-ffffdee50f3f5513"/>
+					<Co K="Window" U="16170a89-03df-4f96-ffffdee50f3f5513"/>
+					<Co K="Stop" U="16170a89-03df-4f97-ffffdee50f3f5513"/>
+					<Co K="ManualPosition" U="16170a89-03df-4f98-ffffdee50f3f5513"/>
+					<Co K="ManualLamelle" U="16170a89-03df-4f99-ffffdee50f3f5513"/>
+					<Co K="Gesture" U="16170a89-03df-4f9a-ffffdee50f3f5513"/>
+					<Co K="InputDisable" U="16170a89-03df-4f9b-ffffdee50f3f5513"/>
+					<Co K="SO" U="16170a89-03df-4f9c-ffffdee50f3f5513"/>
+					<Co K="WP" U="16170a89-03df-4f9d-ffffdee50f3f5513"/>
+					<Co K="AutoShadeEnd" Def="1" U="16170a89-03df-4f9e-ffffdee50f3f5513"/>
+					<Co K="AutMode" Def="1" U="16170a89-03df-4f9f-ffffdee50f3f5513"/>
+					<Co K="MinPulse" Def="3" U="16170a89-03df-4fa0-ffffdee50f3f5513"/>
+					<Co K="DblClk" Def="0.3" U="16170a89-03df-4fa1-ffffdee50f3f5513"/>
+					<Co K="Dir" Def="-1" U="16170a89-03df-4fa2-ffffdee50f3f5513"/>
+					<Co K="DirTol" Def="85" U="16170a89-03df-4fa3-ffffdee50f3f5513"/>
+					<Co K="DirTol2" Def="85" U="16170a89-03df-4fa4-ffffdee50f3f5513"/>
+					<Co K="AutoShadeTime" Def="60" U="16170a89-03df-4fa5-ffffdee50f3f5513"/>
+					<Co K="SRoff" Def="30" U="16170a89-03df-4fa6-ffffdee50f3f5513"/>
+					<Co K="SSoff" Def="-30" U="16170a89-03df-4fa7-ffffdee50f3f5513"/>
+					<Co K="ShadePos" Def="0.8" U="16170a89-03df-4fa8-ffffdee50f3f5513"/>
+					<Co K="Width" Def="70" U="16170a89-03df-4fa9-ffffdee50f3f5513"/>
+					<Co K="Space" Def="60" U="16170a89-03df-4faa-ffffdee50f3f5513"/>
+					<Co K="MovePosition" U="16170a89-03df-4fab-ffffdee50f3f5513"/>
+					<Co K="OutputPos" U="16170a89-03df-4fac-ffffdee50f3f5513"/>
+					<Co K="OutputLPos" U="16170a89-03df-4fad-ffffdee50f3f5513"/>
+					<Co K="OutputMoving" U="16170a89-03df-4fae-ffffdee50f3f5513"/>
+					<Co K="OutputBlock" U="16170a89-03df-4faf-ffffdee50f3f5513"/>
+					<Co K="OutputObstacle" U="16170a89-03df-4fb0-ffffdee50f3f5513"/>
+					<Co K="OutputAutoShade" U="16170a89-03df-4fb1-ffffdee50f3f5513"/>
+					<Co K="OutputSafety" U="16170a89-03df-4fb2-ffffdee50f3f5513"/>
+					<Co K="OutputLock" U="16170a89-03df-4fb3-ffffdee50f3f5513"/>
+					<IoData Visu="true" Cr="1616fcf7-002d-961b-ffff721641b000e9" Pr="1616fcf7-0074-9788-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<Display Unit="&lt;v.1&gt;k"/>
+				</C>
+				<C Type="InputRef" V="138" U="16170af8-0365-6bc8-ffff721641b000e9" Title="Up" Px="6624" Py="6144" Px2="8736" Py2="6336" Cl="238,238,238" Nio="4" Ref="16170aed-02d1-632c-ffff721641b000e9" WF="131072" LinkRefType="71">
+					<Co K="AI" Nc="1" U="16170af8-0365-6bc4-ffff426d8b03169c">
+						<In Input="16170aed-02d1-632a-ffffd4313ba7f6c4"/>
+					</Co>
+					<Co K="I" Nc="1" U="16170af8-0365-6bc5-ffff426d8b03169c">
+						<In Input="16170aed-02d1-632b-ffffd4313ba7f6c4"/>
+					</Co>
+					<Co K="AQ" U="16170af8-0365-6bc6-ffff426d8b03169c"/>
+					<Co K="Q" U="16170af8-0365-6bc7-ffff426d8b03169c"/>
+				</C>
+			</C>
+			<C Type="Page" V="138" U="16290373-032d-f045-ffff721641b000e9" Title="Pagina 2" WF="16384">
+				<IoData Cr="1616fcf7-002c-9613-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+				<C Type="InputRef" V="138" U="16290d2a-0122-094d-ffff721641b000e9" Title="T5" Px="960" Py="5280" Px2="3072" Py2="5472" Cl="238,238,238" Nio="4" Ref="16290344-0358-ea81-ffff721641b000e9" WF="131072" Analog="true" LinkRefType="183">
+					<Co K="AI" Nc="1" U="16290d2a-0122-0949-ffff392c3b899b24">
+						<In Input="16290344-0358-ea7f-ffff39799cfa3d4a"/>
+					</Co>
+					<Co K="I" Nc="1" U="16290d2a-0122-094a-ffff392c3b899b24">
+						<In Input="16290344-0358-ea80-ffff39799cfa3d4a"/>
+					</Co>
+					<Co K="AQ" U="16290d2a-0122-094b-ffff392c3b899b24"/>
+					<Co K="Q" U="16290d2a-0122-094c-ffff392c3b899b24"/>
+				</C>
+				<C Type="LightController2" V="138" U="16290d26-01d0-02b2-ffff721641b000e9" Title="Lichtsturing" Px="8736" Py="3840" Px2="11424" Py2="5664" Cl="105,195,80" Nio="65" NameAI0="Kleurlicht" CapAI0="31" NameAI1="Actor (relais) 1" uuidSeqencing="162901b8-0168-908c-ffff3ce43fa9aec5,162901b8-0168-908e-ffff3ce43fa9aec5,162901b8-0168-9090-ffff3ce43fa9aec5,162901b8-0168-9092-ffff3ce43fa9aec5,162901b8-0168-9094-ffff3ce43fa9aec5,162901b8-0168-9096-ffff3ce43fa9aec5,162901b8-0168-9098-ffff3ce43fa9aec5,162901b8-0168-909a-ffff3ce43fa9aec5,162901b8-0168-909c-ffff3ce43fa9aec5,162901b8-0168-909e-ffff3ce43fa9aec5,162901b8-0168-90a0-ffff3ce43fa9aec5,162901b8-0168-90a2-ffff3ce43fa9aec5,162901b8-0168-90a4-ffff3ce43fa9aec5,162901b8-0168-90a6-ffff3ce43fa9aec5,162901b8-0168-90a8-ffff3ce43fa9aec5,162901b8-0168-90aa-ffff3ce43fa9aec5,162901b8-0168-90ac-ffff3ce43fa9aec5,162901b8-0168-90ae-ffff3ce43fa9aec5,162901b8-0168-90b0-ffff3ce43fa9aec5,162901b8-0168-90b2-ffff3ce43fa9aec5" uuidSeqenceIx="162901b8-0168-908d-ffff3ce43fa9aec5,162901b8-0168-908f-ffff3ce43fa9aec5,162901b8-0168-9091-ffff3ce43fa9aec5,162901b8-0168-9093-ffff3ce43fa9aec5,162901b8-0168-9095-ffff3ce43fa9aec5,162901b8-0168-9097-ffff3ce43fa9aec5,162901b8-0168-9099-ffff3ce43fa9aec5,162901b8-0168-909b-ffff3ce43fa9aec5,162901b8-0168-909d-ffff3ce43fa9aec5,162901b8-0168-909f-ffff3ce43fa9aec5,162901b8-0168-90a1-ffff3ce43fa9aec5,162901b8-0168-90a3-ffff3ce43fa9aec5,162901b8-0168-90a5-ffff3ce43fa9aec5,162901b8-0168-90a7-ffff3ce43fa9aec5,162901b8-0168-90a9-ffff3ce43fa9aec5,162901b8-0168-90ab-ffff3ce43fa9aec5,162901b8-0168-90ad-ffff3ce43fa9aec5,162901b8-0168-90af-ffff3ce43fa9aec5,162901b8-0168-90b1-ffff3ce43fa9aec5,162901b8-0168-90b3-ffff3ce43fa9aec5" SpStates="16290d26-01cf-023d-ffff68e5d3cbc798,16290d26-01cf-023e-ffff68e5d3cbc798,16290d26-01cf-023f-ffff68e5d3cbc798,16290d26-01cf-0240-ffff68e5d3cbc798,16290d26-01cf-0241-ffff68e5d3cbc798,16290d26-01cf-0242-ffff68e5d3cbc798,16290d26-01cf-0243-ffff68e5d3cbc798,16290d26-01cf-0244-ffff68e5d3cbc798,16290d26-01cf-0245-ffff68e5d3cbc798">
+					<Co K="I1" U="16290d26-01cf-026f-ffff68e5d3cbc798"/>
+					<Co K="I2" U="16290d26-01cf-0270-ffff68e5d3cbc798"/>
+					<Co K="I3" U="16290d26-01cf-0271-ffff68e5d3cbc798"/>
+					<Co K="I4" U="16290d26-01cf-0272-ffff68e5d3cbc798"/>
+					<Co K="InputTriggerUp" U="16290d26-01cf-0273-ffff68e5d3cbc798"/>
+					<Co K="InputTriggerDown" U="16290d26-01cf-0274-ffff68e5d3cbc798"/>
+					<Co K="Select" U="16290d26-01cf-0275-ffff68e5d3cbc798"/>
+					<Co K="Reset" U="16290d26-01cf-0276-ffff68e5d3cbc798"/>
+					<Co K="Sel1" U="16290d26-01cf-0277-ffff68e5d3cbc798"/>
+					<Co K="Sel2" U="16290d26-01cf-0278-ffff68e5d3cbc798"/>
+					<Co K="Sel3" U="16290d26-01cf-0279-ffff68e5d3cbc798"/>
+					<Co K="Sel4" U="16290d26-01cf-027a-ffff68e5d3cbc798"/>
+					<Co K="Sel5" U="16290d26-01cf-027b-ffff68e5d3cbc798"/>
+					<Co K="Sel6" U="16290d26-01cf-027c-ffff68e5d3cbc798"/>
+					<Co K="Sel7" U="16290d26-01d0-027d-ffff68e5d3cbc798"/>
+					<Co K="Sel8" U="16290d26-01d0-027e-ffff68e5d3cbc798"/>
+					<Co K="EnMove" U="16290d26-01d0-027f-ffff68e5d3cbc798"/>
+					<Co K="Move" U="16290d26-01d0-0281-ffff68e5d3cbc798"/>
+					<Co K="On" U="16290d26-01d0-0282-ffff68e5d3cbc798"/>
+					<Co K="Alarm" U="16290d26-01d0-0283-ffff68e5d3cbc798"/>
+					<Co K="AlarmClock" U="16290d26-01d0-0284-ffff68e5d3cbc798"/>
+					<Co K="Brightness" U="16290d26-01d0-0285-ffff68e5d3cbc798"/>
+					<Co K="InputDisable" U="16290d26-01d0-0286-ffff68e5d3cbc798"/>
+					<Co K="Remanence" Inv="true" U="16290d26-01d0-0287-ffff68e5d3cbc798"/>
+					<Co K="MaxP" Def="0.35" U="16290d26-01d0-0288-ffff68e5d3cbc798"/>
+					<Co K="Step" Def="2" U="16290d26-01d0-0289-ffff68e5d3cbc798"/>
+					<Co K="Steptime" Def="0.2" U="16290d26-01d0-028a-ffff68e5d3cbc798"/>
+					<Co K="Min" U="16290d26-01d0-028b-ffff68e5d3cbc798"/>
+					<Co K="Max" Def="100" U="16290d26-01d0-028c-ffff68e5d3cbc798"/>
+					<Co K="Wrap" U="16290d26-01d0-028d-ffff68e5d3cbc798"/>
+					<Co K="NoLast" U="16290d26-01d0-028e-ffff68e5d3cbc798"/>
+					<Co K="MoveOn" Def="1800" U="16290d26-01d0-028f-ffff68e5d3cbc798"/>
+					<Co K="MoveIgnore" Def="300" U="16290d26-01d0-0290-ffff68e5d3cbc798"/>
+					<Co K="MoveScene" U="16290d26-01d0-0291-ffff68e5d3cbc798"/>
+					<Co K="MoveTimeout" Def="3600" U="16290d26-01d0-0292-ffff68e5d3cbc798"/>
+					<Co K="RGBalt" U="16290d26-01d0-0293-ffff68e5d3cbc798"/>
+					<Co K="AlarmPeriod" Def="4" U="16290d26-01d0-0294-ffff68e5d3cbc798"/>
+					<Co K="AlarmClockPeriod" Def="3" U="16290d26-01d0-0295-ffff68e5d3cbc798"/>
+					<Co K="BrightnessLimit" Def="30" U="16290d26-01d0-0296-ffff68e5d3cbc798"/>
+					<Co K="SceneMixTime" Def="1" U="16290d26-01d0-0297-ffff68e5d3cbc798"/>
+					<Co K="FadingTime" Def="1" U="16290d26-01d0-0298-ffff68e5d3cbc798"/>
+					<Co K="AlarmBrightness" Def="50" U="16290d26-01d0-0299-ffff68e5d3cbc798"/>
+					<Co K="AQ1" U="16290d26-01d0-029a-ffff68e5d3cbc798"/>
+					<Co K="AQ2" U="16290d26-01d0-029b-ffff68e5d3cbc798"/>
+					<Co K="AQ3" U="16290d26-01d0-029c-ffff68e5d3cbc798"/>
+					<Co K="AQ4" U="16290d26-01d0-029d-ffff68e5d3cbc798"/>
+					<Co K="AQ5" U="16290d26-01d0-029e-ffff68e5d3cbc798"/>
+					<Co K="AQ6" U="16290d26-01d0-029f-ffff68e5d3cbc798"/>
+					<Co K="AQ7" U="16290d26-01d0-02a0-ffff68e5d3cbc798"/>
+					<Co K="AQ8" U="16290d26-01d0-02a1-ffff68e5d3cbc798"/>
+					<Co K="AQ9" U="16290d26-01d0-02a2-ffff68e5d3cbc798"/>
+					<Co K="AQ10" U="16290d26-01d0-02a3-ffff68e5d3cbc798"/>
+					<Co K="AQ11" U="16290d26-01d0-02a4-ffff68e5d3cbc798"/>
+					<Co K="AQ12" U="16290d26-01d0-02a5-ffff68e5d3cbc798"/>
+					<Co K="AQ13" U="16290d26-01d0-02a6-ffff68e5d3cbc798"/>
+					<Co K="AQ14" U="16290d26-01d0-02a7-ffff68e5d3cbc798"/>
+					<Co K="AQ15" U="16290d26-01d0-02a8-ffff68e5d3cbc798"/>
+					<Co K="AQ16" U="16290d26-01d0-02a9-ffff68e5d3cbc798"/>
+					<Co K="AQ17" U="16290d26-01d0-02aa-ffff68e5d3cbc798"/>
+					<Co K="AQ18" U="16290d26-01d0-02ab-ffff68e5d3cbc798"/>
+					<Co K="AQ19" U="16290d26-01d0-02ac-ffff68e5d3cbc798"/>
+					<Co K="AQ20" U="16290d26-01d0-02ad-ffff68e5d3cbc798"/>
+					<Co K="Scene" U="16290d26-01d0-02ae-ffff68e5d3cbc798"/>
+					<Co K="OutputReset" U="16290d26-01d0-02af-ffff68e5d3cbc798"/>
+					<Co K="OutputResetAll" U="16290d26-01d0-02b0-ffff68e5d3cbc798"/>
+					<IoData Visu="true" Cr="1616fcf7-002c-9617-ffff721641b000e9" Pr="1616fcf7-006f-9760-ffff721641b000e9" Ugr="1616fcf7-006d-9756-ffff721641b000e9" Ugx="1616fcf7-006d-9756-ffff721641b000e9"/>
+					<LightscenesC FC="0040FFFF,008080FF,00FFFF80,0040FF40" Outputs="18" Num="4">
+						<LightsceneC Name="Alles aan" UUID="16290d26-01cf-0239-ffff68e5d3cbc798" Move="true" Outputs="18" SID="1" Q1="1710712836" Q2="1" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0" Q13="0" Q14="0" Q15="0" Q16="0" Q17="0" Q18="0"/>
+						<LightsceneC Name="Uit" UUID="16290d26-01cf-023c-ffff68e5d3cbc798" ReadOnly="true" Outputs="18" SID="778" Q1="1610612736" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0" Q13="0" Q14="0" Q15="0" Q16="0" Q17="0" Q18="0"/>
+						<LightsceneC Name="RGB Led" UUID="16290e14-02aa-4cf8-ffff721641b000e9" Outputs="18" SkipNext="true" SID="2" Q1="1811616237" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0" Q13="0" Q14="0" Q15="0" Q16="0" Q17="0" Q18="0">
+							<SeqConf Num="1">
+								<seq0>
+									<Sequence Time="60" Num="2">
+										<Col val="100100100"/>
+										<Col val="40055080"/>
+									</Sequence>
+								</seq0>
+							</SeqConf>
+						</LightsceneC>
+						<LightsceneC Name="Beweging" UUID="162910fb-0379-ca0d-ffff721641b000e9" Outputs="18" SkipNext="true" SID="3" Q1="1811615436" Q2="1" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0" Q13="0" Q14="0" Q15="0" Q16="0" Q17="0" Q18="0"/>
+					</LightscenesC>
+					<LSConfig OpM="-7" ScMv="1" ScAc="2"/>
+					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" V="20"/>
+				</C>
+				<C Type="Code16" V="138" U="16297d5c-030d-79a7-ffff721641b000e9" Title="T5 Demux" Px="4032" Py="4800" Px2="6720" Py2="6432" Cl="105,195,80" Nio="34" Code="// write program here in PicoC
+void sendState(int state){
+	for(int i = 0; i &lt; 5; i++){
+		setoutput(i, (float)state[i]);
+	}
+
+}
+
+
+int nEvents;
+float f1;
+while(true){
+	nEvents = getinputevent();
+	if(nEvents &amp; 0xe){
+		f1 = getinput(0);
+		printf(&quot;Value: %f&quot;, f1);
+		sendState((int)f1);
+	}
+}
+
+
+
+" Task="1">
+					<Co K="TI1" U="16297d5c-030d-7985-ffffb60a59f72a60"/>
+					<Co K="TI2" U="16297d5c-030d-7986-ffffb60a59f72a60"/>
+					<Co K="TI3" U="16297d5c-030d-7987-ffffb60a59f72a60"/>
+					<Co K="AI1" Nc="1" U="16297d5c-030d-7988-ffffb60a59f72a60">
+						<In Input="16290d2a-0122-094b-ffff392c3b899b24"/>
+					</Co>
+					<Co K="AI2" U="16297d5c-030d-7989-ffffb60a59f72a60"/>
+					<Co K="AI3" U="16297d5c-030d-798a-ffffb60a59f72a60"/>
+					<Co K="AI4" U="16297d5c-030d-798b-ffffb60a59f72a60"/>
+					<Co K="AI5" U="16297d5c-030d-798c-ffffb60a59f72a60"/>
+					<Co K="AI6" U="16297d5c-030d-798d-ffffb60a59f72a60"/>
+					<Co K="AI7" U="16297d5c-030d-798e-ffffb60a59f72a60"/>
+					<Co K="AI8" U="16297d5c-030d-798f-ffffb60a59f72a60"/>
+					<Co K="AI9" U="16297d5c-030d-7990-ffffb60a59f72a60"/>
+					<Co K="AI10" U="16297d5c-030d-7991-ffffb60a59f72a60"/>
+					<Co K="AI11" U="16297d5c-030d-7992-ffffb60a59f72a60"/>
+					<Co K="AI12" U="16297d5c-030d-7993-ffffb60a59f72a60"/>
+					<Co K="AI13" U="16297d5c-030d-7994-ffffb60a59f72a60"/>
+					<Co K="Remanence" U="16297d5c-030d-7995-ffffb60a59f72a60"/>
+					<Co K="TQ1" U="16297d5c-030d-7996-ffffb60a59f72a60"/>
+					<Co K="TQ2" U="16297d5c-030d-7997-ffffb60a59f72a60"/>
+					<Co K="TQ3" U="16297d5c-030d-7998-ffffb60a59f72a60"/>
+					<Co K="AQ1" U="16297d5c-030d-7999-ffffb60a59f72a60"/>
+					<Co K="AQ2" U="16297d5c-030d-799a-ffffb60a59f72a60"/>
+					<Co K="AQ3" U="16297d5c-030d-799b-ffffb60a59f72a60"/>
+					<Co K="AQ4" U="16297d5c-030d-799c-ffffb60a59f72a60"/>
+					<Co K="AQ5" U="16297d5c-030d-799d-ffffb60a59f72a60"/>
+					<Co K="AQ6" U="16297d5c-030d-799e-ffffb60a59f72a60"/>
+					<Co K="AQ7" U="16297d5c-030d-799f-ffffb60a59f72a60"/>
+					<Co K="AQ8" U="16297d5c-030d-79a0-ffffb60a59f72a60"/>
+					<Co K="AQ9" U="16297d5c-030d-79a1-ffffb60a59f72a60"/>
+					<Co K="AQ10" U="16297d5c-030d-79a2-ffffb60a59f72a60"/>
+					<Co K="AQ11" U="16297d5c-030d-79a3-ffffb60a59f72a60"/>
+					<Co K="AQ12" U="16297d5c-030d-79a4-ffffb60a59f72a60"/>
+					<Co K="AQ13" U="16297d5c-030d-79a5-ffffb60a59f72a60"/>
+					<Co K="TeQ" U="16297d5c-030d-79a6-ffffb60a59f72a60"/>
+				</C>
+				<C Type="OutputRef" V="138" U="16296557-00f2-31cc-ffff721641b000e9" Title="Actor (relais) 1" Px="12384" Py="4512" Px2="14496" Py2="4704" Cl="238,238,238" Nio="2" Ref="1616fd63-018d-9962-ffff721641b000e9" WF="147456" LinkRefType="63">
+					<Co K="AI" Nc="1" U="16296557-00f2-31ca-ffff3540268f7709">
+						<In Input="16290d26-01d0-029b-ffff68e5d3cbc798"/>
+					</Co>
+					<Co K="AQ" U="16296557-00f2-31cb-ffff3540268f7709"/>
+				</C>
+				<C Type="OutputRef" V="138" U="16290d2f-0187-1770-ffff721641b000e9" Title="Smartactor RGBW" Px="12384" Py="4320" Px2="14496" Py2="4512" Cl="238,238,238" Nio="2" Ref="16290343-020f-e463-ffff721641b000e9" WF="147456" Analog="true" LinkRefType="185">
+					<Co K="AI" Nc="1" U="16290d2f-0187-176e-ffff4b91cedc8f4d">
+						<In Input="16290d26-01d0-029a-ffff68e5d3cbc798"/>
+					</Co>
+					<Co K="AQ" U="16290d2f-0187-176f-ffff4b91cedc8f4d"/>
+				</C>
+			</C>
+		</C>
+	</C>
+</ControlList>
